@@ -1,0 +1,34 @@
+name: Suggest a resource / 推荐资源
+description: Recommend a project, guide, video or community for the list. 推荐一个项目、教程、视频或社区。
+title: "[Suggest] "
+labels: ["suggestion"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: URL / 链接
+      description: GitHub repo, video (YouTube / Bilibili), article or community link.
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Suggested category / 建议分类
+      description: e.g. Skills, Subagents, Hooks, MCP Servers, Statuslines, Bilibili Videos… (see the README contents)
+  - type: textarea
+    id: why
+    attributes:
+      label: What is it and why is it awesome? / 简介与推荐理由
+      description: One or two sentences. Chinese or English are both fine. 中英文均可。
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: It is related to Claude, Claude Code, the Claude Agent SDK or MCP. / 与 Claude 相关。
+          required: true
+        - label: It is not an account-sharing, reselling or "free API key" scheme. / 不是账号共享、转售或“免费 API”类项目。
+          required: true

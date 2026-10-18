@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.png binary
+docs/data.json linguist-generated=true
+data/stats.json linguist-generated=true
+README.md linguist-generated=false

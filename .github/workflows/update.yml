@@ -1,0 +1,49 @@
+name: Refresh stats & rebuild
+
+on:
+  schedule:
+    - cron: "23 3 * * 1"   # every Monday 03:23 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "data/projects.json"
+      - "data/categories.json"
+      - "scripts/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rebuild
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate data
+        run: python scripts/build.py --check
+
+      - name: Refresh GitHub stats and rebuild README + site data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/build.py --refresh
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md README.zh-CN.md docs/data.json data/stats.json
+          git commit -m "chore: refresh GitHub stats"
+          git push

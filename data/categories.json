@@ -1,0 +1,234 @@
+{
+  "spotlight": [
+    "https://github.com/anthropics/claude-code",
+    "https://code.claude.com/docs/en/overview",
+    "https://code.claude.com/docs/en/best-practices",
+    "https://github.com/anthropics/skills",
+    "https://github.com/obra/superpowers",
+    "https://github.com/anthropics/claude-plugins-official",
+    "https://github.com/anthropics/claude-code-action",
+    "https://github.com/ccusage/ccusage",
+    "https://github.com/farion1231/cc-switch",
+    "https://github.com/github/spec-kit",
+    "https://github.com/upstash/context7",
+    "https://github.com/shareAI-lab/learn-claude-code"
+  ],
+  "sections": [
+    {
+      "id": "official",
+      "emoji": "🏛️",
+      "name": { "en": "Official Resources", "zh": "官方资源" },
+      "desc": {
+        "en": "Repositories, SDKs, docs and courses published by Anthropic and the Model Context Protocol project.",
+        "zh": "Anthropic 与 Model Context Protocol 项目官方发布的仓库、SDK、文档与课程。"
+      },
+      "categories": [
+        { "id": "official-repos", "name": { "en": "Official Repositories", "zh": "官方仓库" },
+          "desc": { "en": "Claude Code itself, official actions, skills, cookbooks and quickstarts.", "zh": "Claude Code 本体、官方 Action、Skills、Cookbook 与快速上手项目。" } },
+        { "id": "official-sdks", "name": { "en": "Official SDKs", "zh": "官方 SDK" },
+          "desc": { "en": "First-party client libraries for the Claude API and the Claude Agent SDK.", "zh": "Claude API 与 Claude Agent SDK 的官方客户端库。" } },
+        { "id": "official-learning", "name": { "en": "Official Docs & Courses", "zh": "官方文档与课程" },
+          "desc": { "en": "Documentation, Anthropic Academy and the engineering blog.", "zh": "官方文档、Anthropic Academy 课程与工程博客。" } }
+      ]
+    },
+    {
+      "id": "extending",
+      "emoji": "🧩",
+      "name": { "en": "Extending Claude Code", "zh": "扩展 Claude Code" },
+      "desc": {
+        "en": "Drop-in content that teaches Claude Code new tricks: skills, subagents, slash commands, hooks, plugins and config templates.",
+        "zh": "即插即用的扩展内容：技能、子代理、斜杠命令、钩子、插件与配置模板。"
+      },
+      "categories": [
+        { "id": "skills", "name": { "en": "Agent Skills", "zh": "Agent Skills 技能" },
+          "desc": { "en": "Folders of instructions, scripts and resources that Claude loads on demand.", "zh": "按需加载的指令、脚本与资源包。" } },
+        { "id": "subagents", "name": { "en": "Subagents", "zh": "子代理 Subagents" },
+          "desc": { "en": "Specialised agents with their own prompt, tools and context window.", "zh": "拥有独立提示词、工具与上下文窗口的专用代理。" } },
+        { "id": "commands", "name": { "en": "Slash Commands", "zh": "斜杠命令" },
+          "desc": { "en": "Reusable prompts invoked with /command.", "zh": "通过 /命令 调用的可复用提示词。" } },
+        { "id": "hooks", "name": { "en": "Hooks", "zh": "钩子 Hooks" },
+          "desc": { "en": "Shell commands that run on Claude Code lifecycle events: guards, formatters, notifications.", "zh": "在 Claude Code 生命周期事件上运行的命令：安全防护、格式化、通知等。" } },
+        { "id": "plugins", "name": { "en": "Plugins & Marketplaces", "zh": "插件与插件市场" },
+          "desc": { "en": "Installable bundles of commands, agents, skills, hooks and MCP servers.", "zh": "打包命令、代理、技能、钩子与 MCP 服务器的可安装插件。" } },
+        { "id": "claude-md", "name": { "en": "CLAUDE.md, Configs & Templates", "zh": "CLAUDE.md、配置与模板" },
+          "desc": { "en": "Starter kits, memory files, settings and output styles.", "zh": "入门套件、记忆文件、设置与输出风格。" } }
+      ]
+    },
+    {
+      "id": "workflows",
+      "emoji": "🧭",
+      "name": { "en": "Workflows & Orchestration", "zh": "工作流与编排" },
+      "desc": {
+        "en": "Methodologies and runners for working with Claude Code at scale: spec-driven development, parallel agents and long-term memory.",
+        "zh": "规模化使用 Claude Code 的方法论与运行器：规格驱动开发、并行代理与长期记忆。"
+      },
+      "categories": [
+        { "id": "frameworks", "name": { "en": "Frameworks & Methodologies", "zh": "框架与方法论" },
+          "desc": { "en": "Opinionated systems for planning, specifying and shipping with agents.", "zh": "用于规划、编写规格与交付的成套代理开发体系。" } },
+        { "id": "orchestration", "name": { "en": "Multi-Agent & Parallel Sessions", "zh": "多代理与并行会话" },
+          "desc": { "en": "Run many Claude Code sessions side by side, in worktrees, in the background or as a swarm.", "zh": "在 worktree、后台或集群中并行运行多个 Claude Code 会话。" } },
+        { "id": "memory-context", "name": { "en": "Memory & Context", "zh": "记忆与上下文" },
+          "desc": { "en": "Persistent memory, codebase indexing and context engineering.", "zh": "持久记忆、代码库索引与上下文工程。" } }
+      ]
+    },
+    {
+      "id": "tooling",
+      "emoji": "🛠️",
+      "name": { "en": "Tooling", "zh": "工具链" },
+      "desc": {
+        "en": "Everything around the CLI: usage tracking, statuslines, GUIs, editor integrations, model routing, sandboxes, CI and observability.",
+        "zh": "围绕 CLI 的周边工具：用量统计、状态栏、图形界面、编辑器集成、模型路由、沙箱、CI 与可观测性。"
+      },
+      "categories": [
+        { "id": "usage-monitoring", "name": { "en": "Usage & Cost Monitoring", "zh": "用量与成本监控" },
+          "desc": { "en": "Track tokens, costs and rate-limit windows.", "zh": "统计 Token、费用与限额窗口。" } },
+        { "id": "statusline", "name": { "en": "Statuslines", "zh": "状态栏 Statusline" },
+          "desc": { "en": "Custom status bars for the Claude Code terminal UI.", "zh": "Claude Code 终端界面的自定义状态栏。" } },
+        { "id": "gui-clients", "name": { "en": "GUI, Web & Mobile Clients", "zh": "图形界面、Web 与移动端" },
+          "desc": { "en": "Desktop apps, web UIs and phone clients that drive Claude Code.", "zh": "驱动 Claude Code 的桌面应用、Web 界面与手机客户端。" } },
+        { "id": "ide", "name": { "en": "IDE & Editor Integrations", "zh": "IDE 与编辑器集成" },
+          "desc": { "en": "VS Code, JetBrains, Neovim, Emacs, Zed and more.", "zh": "VS Code、JetBrains、Neovim、Emacs、Zed 等。" } },
+        { "id": "routers-proxies", "name": { "en": "Model Routers & Provider Switchers", "zh": "模型路由与供应商切换" },
+          "desc": { "en": "Point Claude Code at other backends or switch between providers and configs.", "zh": "让 Claude Code 接入其他模型后端，或在不同供应商与配置间切换。" } },
+        { "id": "sandbox", "name": { "en": "Sandboxing & Containers", "zh": "沙箱与容器" },
+          "desc": { "en": "Isolated environments for running agents safely.", "zh": "安全运行代理的隔离环境。" } },
+        { "id": "ci-cd", "name": { "en": "CI/CD & GitHub Automation", "zh": "CI/CD 与 GitHub 自动化" },
+          "desc": { "en": "Claude in pull requests, issues and pipelines.", "zh": "在 PR、Issue 与流水线中使用 Claude。" } },
+        { "id": "observability", "name": { "en": "Logs, Transcripts & Observability", "zh": "日志、会话记录与可观测性" },
+          "desc": { "en": "Inspect, search, export and trace what your agents did.", "zh": "查看、搜索、导出与追踪代理的所作所为。" } }
+      ]
+    },
+    {
+      "id": "mcp",
+      "emoji": "🔌",
+      "name": { "en": "Model Context Protocol (MCP)", "zh": "模型上下文协议 MCP" },
+      "desc": {
+        "en": "The open protocol Claude uses to talk to tools and data. Popular servers, SDKs and where to find more.",
+        "zh": "Claude 连接工具与数据的开放协议：热门服务器、SDK 与目录。"
+      },
+      "categories": [
+        { "id": "mcp-servers", "name": { "en": "MCP Servers", "zh": "MCP 服务器" },
+          "desc": { "en": "Widely used servers, grouped by what they connect Claude to.", "zh": "常用 MCP 服务器，按连接对象分组。" },
+          "groups": [
+            { "id": "devtools", "emoji": "🧑‍💻", "name": { "en": "Developer tools & code", "zh": "开发工具与代码" } },
+            { "id": "browser", "emoji": "🌐", "name": { "en": "Browser automation", "zh": "浏览器自动化" } },
+            { "id": "search", "emoji": "🔍", "name": { "en": "Docs, search & web", "zh": "文档、搜索与网页" } },
+            { "id": "data", "emoji": "🗄️", "name": { "en": "Databases & data", "zh": "数据库与数据" } },
+            { "id": "cloud", "emoji": "☁️", "name": { "en": "Cloud & infrastructure", "zh": "云与基础设施" } },
+            { "id": "design", "emoji": "🎨", "name": { "en": "Design, 3D & creative", "zh": "设计、3D 与创意" } },
+            { "id": "productivity", "emoji": "🗂️", "name": { "en": "Productivity & knowledge", "zh": "效率与知识管理" } },
+            { "id": "os", "emoji": "🖥️", "name": { "en": "Desktop & OS control", "zh": "桌面与系统控制" } },
+            { "id": "memory", "emoji": "🧠", "name": { "en": "Memory", "zh": "记忆" } },
+            { "id": "ai", "emoji": "🤝", "name": { "en": "Multi-model & AI", "zh": "多模型与 AI" } },
+            { "id": "other", "emoji": "✨", "name": { "en": "Other", "zh": "其他" } }
+          ] },
+        { "id": "mcp-dev", "name": { "en": "MCP SDKs & Dev Tools", "zh": "MCP SDK 与开发工具" },
+          "desc": { "en": "Build, test, proxy and secure your own servers.", "zh": "构建、测试、代理与加固你自己的 MCP 服务器。" } },
+        { "id": "mcp-directories", "name": { "en": "MCP Directories & Registries", "zh": "MCP 目录与注册表" },
+          "desc": { "en": "Find thousands more servers.", "zh": "发现更多 MCP 服务器。" } }
+      ]
+    },
+    {
+      "id": "building",
+      "emoji": "🤖",
+      "name": { "en": "Building with Claude", "zh": "基于 Claude 构建" },
+      "desc": {
+        "en": "Agents, apps and libraries built on the Claude API and the Claude Agent SDK, plus other coding agents where Claude is a first-class model.",
+        "zh": "基于 Claude API 与 Claude Agent SDK 构建的代理、应用与库，以及将 Claude 作为一等模型的其他编程代理。"
+      },
+      "categories": [
+        { "id": "agent-sdk", "name": { "en": "Agent SDK Projects", "zh": "Agent SDK 项目" },
+          "desc": { "en": "Open-source agents, templates and products built on the Claude Agent SDK.", "zh": "基于 Claude Agent SDK 的开源代理、模板与产品。" } },
+        { "id": "computer-use", "name": { "en": "Computer & Browser Use", "zh": "电脑与浏览器操控" },
+          "desc": { "en": "Agents that see the screen and drive a desktop or browser.", "zh": "能够看屏幕并操控桌面或浏览器的代理。" } },
+        { "id": "coding-agents", "name": { "en": "Coding Agents with Claude Support", "zh": "支持 Claude 的编程代理" },
+          "desc": { "en": "Other open-source coding agents and IDE extensions commonly run on Claude.", "zh": "常与 Claude 搭配使用的其他开源编程代理与 IDE 扩展。" } },
+        { "id": "chat-clients", "name": { "en": "Chat Clients & Apps", "zh": "聊天客户端与应用" },
+          "desc": { "en": "Desktop, web and CLI apps for chatting with Claude.", "zh": "与 Claude 对话的桌面、Web 与命令行应用。" } },
+        { "id": "api-tools", "name": { "en": "API Libraries & Dev Tools", "zh": "API 库与开发工具" },
+          "desc": { "en": "Community SDKs, framework integrations, evals and helpers for the Claude API.", "zh": "社区 SDK、框架集成、评测工具与 Claude API 辅助工具。" } }
+      ]
+    },
+    {
+      "id": "learning",
+      "emoji": "📚",
+      "name": { "en": "Learning", "zh": "学习资源" },
+      "desc": {
+        "en": "Guides, must-read articles, courses, prompts, videos and newsletters.",
+        "zh": "指南、必读文章、课程、提示词、视频与资讯。"
+      },
+      "categories": [
+        { "id": "guides", "name": { "en": "Guides & Tutorials", "zh": "指南与教程" },
+          "desc": { "en": "Community handbooks, best practices and tip collections.", "zh": "社区手册、最佳实践与技巧合集。" } },
+        { "id": "articles", "name": { "en": "Must-read Articles", "zh": "必读文章" },
+          "desc": { "en": "Long-form posts that shaped how people use Claude Code.", "zh": "深刻影响 Claude Code 用法的长文。" } },
+        { "id": "courses", "name": { "en": "Courses", "zh": "课程" },
+          "desc": { "en": "Structured courses from Anthropic, partners and the community.", "zh": "来自 Anthropic、合作伙伴与社区的系统课程。" } },
+        { "id": "prompts", "name": { "en": "Prompts & Prompt Engineering", "zh": "提示词与提示工程" },
+          "desc": { "en": "Prompt libraries and techniques that work well with Claude.", "zh": "适用于 Claude 的提示词库与技巧。" } },
+        { "id": "videos", "name": { "en": "Videos & Channels", "zh": "视频与频道" },
+          "desc": { "en": "Talks, tutorials and YouTube channels.", "zh": "演讲、教程与 YouTube 频道。" } },
+        { "id": "media", "name": { "en": "Newsletters, Podcasts & Blogs", "zh": "资讯、播客与博客" },
+          "desc": { "en": "Keep up with the ecosystem.", "zh": "跟进生态动态。" } }
+      ]
+    },
+    {
+      "id": "chinese",
+      "emoji": "🇨🇳",
+      "name": { "en": "Chinese Community", "zh": "中文社区" },
+      "desc": {
+        "en": "Bilibili creators, Chinese guides, communities and the domestic model providers that offer Claude Code compatible endpoints. Chinese-made projects are also marked 🇨🇳 throughout the list.",
+        "zh": "B 站 UP 主、中文教程、社区平台，以及提供 Claude Code 兼容接口的国内模型厂商。列表中所有国人开发的项目均以 🇨🇳 标记。"
+      },
+      "categories": [
+        { "id": "cn-video", "name": { "en": "Bilibili Videos & Creators", "zh": "B 站视频与 UP 主" },
+          "desc": { "en": "Tutorials and demos from Chinese creators on Bilibili.", "zh": "B 站上的 Claude 教程与实战演示。" } },
+        { "id": "cn-guides", "name": { "en": "Chinese Docs & Guides", "zh": "中文文档与教程" },
+          "desc": { "en": "Translations, handbooks and articles in Chinese.", "zh": "中文翻译、手册与文章。" } },
+        { "id": "cn-community", "name": { "en": "Chinese Communities", "zh": "中文社区平台" },
+          "desc": { "en": "Forums and platforms where Chinese developers share Claude projects.", "zh": "中文开发者分享 Claude 项目的论坛与平台。" } },
+        { "id": "cn-providers", "name": { "en": "Domestic Models for Claude Code", "zh": "国内模型接入 Claude Code" },
+          "desc": { "en": "Official guides from Chinese model providers with Anthropic-compatible APIs.", "zh": "提供 Anthropic 兼容接口的国内模型厂商官方接入文档。" } }
+      ]
+    },
+    {
+      "id": "community",
+      "emoji": "🌏",
+      "name": { "en": "Global Community", "zh": "全球社区" },
+      "desc": {
+        "en": "Where people hang out, plus resources in Japanese, Korean and other languages, and related awesome lists.",
+        "zh": "社区聚集地、日语/韩语等其他语言资源，以及相关的 Awesome 列表。"
+      },
+      "categories": [
+        { "id": "communities", "name": { "en": "Communities & Events", "zh": "社区与活动" },
+          "desc": { "en": "Subreddits, Discord servers, accounts to follow and events.", "zh": "Reddit、Discord、值得关注的账号与活动。" } },
+        { "id": "intl-community", "name": { "en": "Japanese, Korean & Other Languages", "zh": "日语、韩语及其他语言" },
+          "desc": { "en": "Very active non-English communities beyond Chinese.", "zh": "中文以外同样活跃的非英语社区。" } },
+        { "id": "awesome-lists", "name": { "en": "Related Awesome Lists", "zh": "相关 Awesome 列表" },
+          "desc": { "en": "Other curated lists worth bookmarking.", "zh": "其他值得收藏的精选列表。" } }
+      ]
+    }
+  ],
+  "regions": {
+    "cn": { "flag": "🇨🇳", "en": "China", "zh": "中国" },
+    "jp": { "flag": "🇯🇵", "en": "Japan", "zh": "日本" },
+    "kr": { "flag": "🇰🇷", "en": "Korea", "zh": "韩国" },
+    "es": { "flag": "🇪🇸", "en": "Spain", "zh": "西班牙" },
+    "de": { "flag": "🇩🇪", "en": "Germany", "zh": "德国" },
+    "fr": { "flag": "🇫🇷", "en": "France", "zh": "法国" },
+    "ru": { "flag": "🇷🇺", "en": "Russia", "zh": "俄罗斯" },
+    "br": { "flag": "🇧🇷", "en": "Brazil", "zh": "巴西" }
+  },
+  "types": {
+    "repo": { "icon": "", "en": "Repository", "zh": "仓库" },
+    "website": { "icon": "🌐", "en": "Website", "zh": "网站" },
+    "doc": { "icon": "📘", "en": "Docs", "zh": "文档" },
+    "article": { "icon": "📝", "en": "Article", "zh": "文章" },
+    "course": { "icon": "🎓", "en": "Course", "zh": "课程" },
+    "video": { "icon": "📺", "en": "Video", "zh": "视频" },
+    "channel": { "icon": "📡", "en": "Channel", "zh": "频道" },
+    "community": { "icon": "💬", "en": "Community", "zh": "社区" },
+    "podcast": { "icon": "🎙️", "en": "Podcast", "zh": "播客" },
+    "newsletter": { "icon": "📰", "en": "Newsletter", "zh": "资讯" }
+  }
+}

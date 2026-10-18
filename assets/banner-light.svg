@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="Awesome Claude Code">
+  <defs>
+    <radialGradient id="glow" cx="82%" cy="0%" r="70%">
+      <stop offset="0" stop-color="#f3d9cb"/>
+      <stop offset="1" stop-color="#faf9f5" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.3" fill="#1f1e1c" opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="300" rx="22" fill="#faf9f5"/>
+  <rect width="1280" height="300" rx="22" fill="url(#dots)"/>
+  <rect width="1280" height="300" rx="22" fill="url(#glow)"/>
+  <rect x=".75" y=".75" width="1278.5" height="298.5" rx="21.5" fill="none" stroke="#e6e3d8" stroke-width="1.5"/>
+
+  <g transform="translate(72 74)">
+    <rect width="120" height="120" rx="28" fill="#c15f3c"/>
+    <path d="M32 41l21 19-21 19" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M60 83h28" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+    <path d="M88 24l3.6 8.7 8.7 3.6-8.7 3.6L88 48.6l-3.6-8.7-8.7-3.6 8.7-3.6z" fill="#ffe2d4"/>
+  </g>
+
+  <text x="230" y="122" font-family="Iowan Old Style, Charter, Georgia, serif" font-size="64" fill="#1f1e1c" letter-spacing="-1">Awesome Claude Code</text>
+  <text x="232" y="166" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#65635c">Tools · Skills · Subagents · Plugins · MCP · Apps</text><text x="232" y="196" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#65635c">Guides · Videos · Communities</text>
+  <text x="232" y="232" font-family="-apple-system, Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#8d8a80">精选 Claude Code 生态资源 · 中英双语 · 含 B 站与中文社区</text>
+
+  <g transform="translate(870 58)" font-family="ui-monospace, SF Mono, Consolas, monospace" font-size="15">
+    <rect width="340" height="184" rx="14" fill="#1f1e1c"/>
+    <circle cx="22" cy="20" r="5.5" fill="#e36a5b"/>
+    <circle cx="40" cy="20" r="5.5" fill="#e3b14a"/>
+    <circle cx="58" cy="20" r="5.5" fill="#6dbb6f"/>
+    <text x="22" y="62" fill="#e3825f">❯</text><text x="40" y="62" fill="#ecebe6">claude</text>
+    <text x="22" y="90" fill="#aaa79d">✻ Welcome to the ecosystem</text>
+    <text x="22" y="118" fill="#ecebe6">/skills  /agents  /plugins</text>
+    <text x="22" y="146" fill="#ecebe6">/mcp     /hooks   /statusline</text>
+    <rect x="22" y="160" width="9" height="16" fill="#e3825f" opacity=".85"/>
+  </g>
+</svg>
