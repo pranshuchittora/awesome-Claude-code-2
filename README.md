@@ -22,6 +22,8 @@
 ### 🔎 [Browse the interactive website →](https://tomcatmew.github.io/awesome-Claude-code/)
 <sub>search, filter by category, type or region, sort by stars</sub>
 
+If this list saves you time, a ⭐ helps other Claude Code users find it. Spotted something missing? [Suggest it](https://github.com/tomcatmew/awesome-Claude-code/issues/new/choose).
+
 </div>
 
 > **555** resources · **41** categories · **364** GitHub repos with **8.8M** total stars · updated **2026-10-18**

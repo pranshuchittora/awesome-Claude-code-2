@@ -386,6 +386,20 @@
     details.querySelector("summary").addEventListener("click", function (e) { if (!mq.matches) e.preventDefault(); });
   }
 
+  // Live star count for this repo on the header button; cached per visitor for an hour (anonymous API limit is 60/h).
+  function loadRepoStars(repo, fallback) {
+    function show(n) { var el = $("#gh-count"); el.textContent = stars(n) || "0"; el.hidden = false; }
+    if (typeof fallback === "number") show(fallback);
+    var cached = null;
+    try { cached = JSON.parse(sessionStorage.getItem("acc-stars") || "null"); } catch (e) {}
+    if (cached && Date.now() - cached.t < 36e5) { show(cached.n); return; }
+    fetch("https://api.github.com/repos/" + repo).then(function (r) { return r.ok ? r.json() : null; }).then(function (j) {
+      if (!j || typeof j.stargazers_count !== "number") return;
+      show(j.stargazers_count);
+      try { sessionStorage.setItem("acc-stars", JSON.stringify({ t: Date.now(), n: j.stargazers_count })); } catch (e) {}
+    }).catch(function () {});
+  }
+
   fetch("data.json").then(function (r) { return r.json(); }).then(function (d) {
     DATA = d;
     d.sections.forEach(function (s) {
@@ -396,6 +410,7 @@
     renderStatic();
     bind();
     update();
+    loadRepoStars(d.repo, d.repo_stars);
   }).catch(function (err) {
     $("#results").innerHTML = '<div class="empty">Could not load data.json (' + esc(err.message) + ")</div>";
   });

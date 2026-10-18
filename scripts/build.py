@@ -166,7 +166,8 @@ def _html_one(full, _token=None):
 
 def refresh_stats(projects, stats):
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
-    repos = sorted({r for r in (repo_of(p["url"]) for p in projects) if r})
+    # This list's own repo is tracked too, so the website can show its star count without an API call.
+    repos = sorted({r for r in (repo_of(p["url"]) for p in projects) if r} | {REPO})
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     fresh = {}
     if token:
@@ -250,6 +251,7 @@ T = {
         "tagline": "A curated, categorised and bilingual list of the best Claude Code & Claude ecosystem projects — tools, skills, subagents, plugins, MCP servers, apps, guides, videos and communities from around the world, including the Chinese community.",
         "browse": "Browse the interactive website",
         "browse_hint": "search, filter by category, type or region, sort by stars",
+        "cta": "If this list saves you time, a ⭐ helps other Claude Code users find it. Spotted something missing? [Suggest it](https://github.com/{repo}/issues/new/choose).",
         "lang": "**English** · [简体中文](README.zh-CN.md)",
         "stats": "**{n}** resources · **{c}** categories · **{r}** GitHub repos with **{s}** total stars · updated **{d}**",
         "legend": "**Legend:** 🏆 top pick · ⭐ GitHub stars (refreshed weekly) · 🇨🇳 Chinese · 🇯🇵 Japanese · 🇰🇷 Korean · 🗄️ archived · 📘 docs · 📝 article · 🎓 course · 📺 video · 💬 community",
@@ -275,6 +277,7 @@ T = {
         "tagline": "精心整理、分类清晰的中英双语 Claude Code 与 Claude 生态资源合集 —— 工具、技能、子代理、插件、MCP 服务器、应用、教程、视频与全球社区（含中文社区与 B 站）。",
         "browse": "浏览交互式网站",
         "browse_hint": "支持搜索、按分类/类型/地区筛选、按 Star 排序",
+        "cta": "如果这份列表帮你节省了时间，点个 ⭐ 能让更多 Claude Code 用户发现它。发现遗漏？欢迎[推荐项目](https://github.com/{repo}/issues/new/choose)。",
         "lang": "[English](README.md) · **简体中文**",
         "stats": "共 **{n}** 个资源 · **{c}** 个分类 · **{r}** 个 GitHub 仓库，合计 **{s}** Star · 更新于 **{d}**",
         "legend": "**图例：** 🏆 精选 · ⭐ GitHub Star（每周自动更新）· 🇨🇳 国人/中文 · 🇯🇵 日本 · 🇰🇷 韩国 · 🗄️ 已归档 · 📘 文档 · 📝 文章 · 🎓 课程 · 📺 视频 · 💬 社区",
@@ -357,6 +360,8 @@ def render_readme(lang, cats, items, spotlight, generated):
     w("")
     w(f"### 🔎 [{t['browse']} →]({SITE})")
     w(f"<sub>{t['browse_hint']}</sub>")
+    w("")
+    w(t["cta"].format(repo=REPO))
     w("")
     w("</div>")
     w("")
@@ -506,6 +511,7 @@ def main():
     site = {
         "generated": generated,
         "repo": REPO,
+        "repo_stars": stats.get(REPO, {}).get("stars"),
         "sections": cats["sections"],
         "regions": cats["regions"],
         "types": cats["types"],

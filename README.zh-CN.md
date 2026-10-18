@@ -22,6 +22,8 @@
 ### 🔎 [浏览交互式网站 →](https://tomcatmew.github.io/awesome-Claude-code/)
 <sub>支持搜索、按分类/类型/地区筛选、按 Star 排序</sub>
 
+如果这份列表帮你节省了时间，点个 ⭐ 能让更多 Claude Code 用户发现它。发现遗漏？欢迎[推荐项目](https://github.com/tomcatmew/awesome-Claude-code/issues/new/choose)。
+
 </div>
 
 > 共 **555** 个资源 · **41** 个分类 · **364** 个 GitHub 仓库，合计 **8.8M** Star · 更新于 **2026-10-18**

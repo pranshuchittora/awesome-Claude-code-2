@@ -108,6 +108,7 @@ code, kbd { font-family: var(--mono); font-size: .88em; }
 .chip-btn:hover, .icon-btn:hover, .gh-btn:hover { border-color: var(--accent); text-decoration: none; }
 .gh-btn { background: var(--text); color: var(--bg); border-color: var(--text); }
 .gh-btn:hover { background: var(--accent); border-color: var(--accent); color: #fff; }
+.gh-count { margin-left: 2px; padding: 1px 7px; border-radius: 6px; background: rgba(255, 255, 255, .18); font-weight: 650; font-variant-numeric: tabular-nums; }
 .i-moon { display: none; }
 :root[data-theme="dark"] .i-sun { display: none; }
 :root[data-theme="dark"] .i-moon { display: block; }
