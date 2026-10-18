@@ -893,7 +893,7 @@ _B 站 UP 主、中文教程、社区平台，以及提供 Claude Code 兼容接
 - [鱼皮 AI 知识库 (ai-guide)](https://github.com/liyupi/ai-guide) 🇨🇳 ⭐ 21.3k — 程序员鱼皮的免费 AI 知识库与 Vibe Coding 教程，包含 Claude Code 专题、神级技巧、用 AI 手搓 Claude Code 等内容。
 - [claude-howto-zh-cn](https://github.com/lhfer/claude-howto-zh-cn) 🇨🇳 ⭐ 2.3k — 基于 luongnv89/claude-howto 本土化重写的 Claude Code 中文上手指南，面向小白，保留命令与配置兼容并附学习路径。
 - [everything-claude-code-zh](https://github.com/xu-xiang/everything-claude-code-zh) 🇨🇳 ⭐ 2k — everything-claude-code 中文翻译：源自 Anthropic 黑客松获胜者的完整配置集合（agents、skills、hooks、commands、rules、MCP）。
-- [claude-code-guide（国内如何使用 Claude Code）](https://github.com/claude-code-chinese/claude-code-guide) 🇨🇳 ⭐ 683 — 通俗易懂的 Claude Code 中文介绍与教学指南，包含国内环境使用说明（2026 版）。
+- [claude-code-guide（国内如何使用 Claude Code）](https://github.com/claude-code-chinese/claude-code-guide) 🇨🇳 ⭐ 684 — 通俗易懂的 Claude Code 中文介绍与教学指南，包含国内环境使用说明（2026 版）。
 - [awesome-claudcode-tutorial](https://github.com/xianyu110/awesome-claudcode-tutorial) 🇨🇳 ⭐ 618 — 最全面的 Claude Code 中文教程之一：200+ 篇文章与 29 章课程，从零基础到企业级应用。
 - [Claude Code 橙皮书 (claude-code-orange-book)](https://github.com/alchaincyf/claude-code-orange-book) 🇨🇳 ⭐ 321 — 独立开发者花叔的「橙皮书」系列之 Claude Code 完全指南，AI 编程实战路线，提供中文版。
 - [菜鸟教程 Claude Code 教程](https://www.runoob.com/claude-code/claude-code-tutorial.html) 🎓 🇨🇳 — 菜鸟教程的 Claude Code 系列教程，章节齐全：安装、DeepSeek/Coding Plan 配置、CLAUDE.md、MCP、子代理、Skills、Hooks、Agent SDK 等。
