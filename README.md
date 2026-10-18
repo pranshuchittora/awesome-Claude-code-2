@@ -664,7 +664,7 @@ _Agents, apps and libraries built on the Claude API and the Claude Agent SDK, pl
 
 <sub>Other open-source coding agents and IDE extensions commonly run on Claude.</sub>
 
-- 🏆 **[OpenCode](https://github.com/anomalyco/opencode)** ⭐ 215k — Open-source coding agent (terminal TUI, desktop, IDE) from the SST/Anomaly team; provider-agnostic with strong Claude support.
+- 🏆 **[OpenCode](https://github.com/anomalyco/opencode)** ⭐ 216k — Open-source coding agent (terminal TUI, desktop, IDE) from the SST/Anomaly team; provider-agnostic with strong Claude support.
 - 🏆 **[OpenHands](https://github.com/OpenHands/OpenHands)** ⭐ 91.2k — Open platform for autonomous software-development agents (formerly OpenDevin) with CLI, GUI, cloud and SDK; Claude models are among its recommended LLMs.
 - 🏆 **[Cline](https://github.com/cline/cline)** ⭐ 70.5k — Autonomous coding agent for VS Code, JetBrains and the terminal, originally 'Claude Dev'; Claude is a first-class model, with plan/act modes and MCP.
 - 🏆 **[Aider](https://github.com/Aider-AI/aider)** ⭐ 49.6k — AI pair-programming CLI that edits your git repo directly; long a top performer with Claude, and home of the Aider LLM leaderboards.

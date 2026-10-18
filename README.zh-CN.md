@@ -664,7 +664,7 @@ _基于 Claude API 与 Claude Agent SDK 构建的代理、应用与库，以及�
 
 <sub>常与 Claude 搭配使用的其他开源编程代理与 IDE 扩展。</sub>
 
-- 🏆 **[OpenCode](https://github.com/anomalyco/opencode)** ⭐ 215k — 极受欢迎的开源编程智能体（终端 TUI、桌面端与 IDE），由 SST/Anomaly 团队打造；不绑定模型服务商，对 Claude 支持良好。
+- 🏆 **[OpenCode](https://github.com/anomalyco/opencode)** ⭐ 216k — 极受欢迎的开源编程智能体（终端 TUI、桌面端与 IDE），由 SST/Anomaly 团队打造；不绑定模型服务商，对 Claude 支持良好。
 - 🏆 **[OpenHands](https://github.com/OpenHands/OpenHands)** ⭐ 91.2k — 面向自主软件开发智能体的开放平台（前身 OpenDevin），提供 CLI、GUI、云端与 SDK；Claude 系列是其推荐使用的模型之一。
 - 🏆 **[Cline](https://github.com/cline/cline)** ⭐ 70.5k — 适用于 VS Code、JetBrains 与终端的自主编程智能体，前身为「Claude Dev」；Claude 是其一等支持模型，具备 Plan/Act 模式与 MCP 支持。
 - 🏆 **[Aider](https://github.com/Aider-AI/aider)** ⭐ 49.6k — 开创性的终端 AI 结对编程工具，可直接编辑 git 仓库；长期搭配 Claude 表现出色，并维护 Aider 大模型排行榜。
