@@ -11,7 +11,7 @@
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 [![Resources](https://img.shields.io/badge/resources-555-d97757?style=flat-square)](#contents)
 [![Website](https://img.shields.io/badge/website-online-2ea44f?style=flat-square)](https://tomcatmew.github.io/awesome-Claude-code/)
-[![Updated](https://img.shields.io/badge/updated-2026--10--18-blue?style=flat-square)](https://github.com/tomcatmew/awesome-Claude-code/commits/main)
+[![Updated](https://img.shields.io/badge/updated-2026--10--19-blue?style=flat-square)](https://github.com/tomcatmew/awesome-Claude-code/commits/main)
 [![Stars](https://img.shields.io/github/stars/tomcatmew/awesome-Claude-code?style=flat-square&color=yellow)](https://github.com/tomcatmew/awesome-Claude-code/stargazers)
 [![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey?style=flat-square)](LICENSE)
 
@@ -26,7 +26,7 @@
 
 </div>
 
-> 共 **555** 个资源 · **41** 个分类 · **364** 个 GitHub 仓库，合计 **8.8M** Star · 更新于 **2026-10-18**
+> 共 **555** 个资源 · **41** 个分类 · **364** 个 GitHub 仓库，合计 **8.9M** Star · 更新于 **2026-10-19**
 >
 > **图例：** 🏆 精选 · ⭐ GitHub Star（每周自动更新）· 🇨🇳 国人/中文 · 🇯🇵 日本 · 🇰🇷 韩国 · 🗄️ 已归档 · 📘 文档 · 📝 文章 · 🎓 课程 · 📺 视频 · 💬 社区
 
@@ -40,13 +40,13 @@
 | [**Claude Code Documentation**](https://code.claude.com/docs/en/overview) | Claude Code 官方文档：安装、CLAUDE.md 记忆、技能、钩子、子代理、MCP、插件、设置、CI、定时任务及各使用端。 | [官方文档与课程](#official-learning) |
 | [**Best Practices for Claude Code**](https://code.claude.com/docs/en/best-practices) | Anthropic 权威实践指南：为 Claude 提供验证手段、先探索再计划后编码、精简 CLAUDE.md、管理上下文、子代理与并行会话。 | [官方文档与课程](#official-learning) |
 | [**Anthropic Agent Skills**](https://github.com/anthropics/skills) ⭐ 182k | Anthropic 官方 Agent Skills 公共仓库，包含文档类技能（docx、pptx、xlsx、pdf）、示例及 skill-creator。 | [官方仓库](#official-repos) |
-| [**Superpowers**](https://github.com/obra/superpowers) ⭐ 301k | Jesse Vincent 打造的智能体技能框架与开发方法论，涵盖头脑风暴、规划、TDD、调试和子智能体驱动开发，已上架官方插件市场。 | [Agent Skills 技能](#skills) |
-| [**Claude Code Plugins (Official Directory)**](https://github.com/anthropics/claude-plugins-official) ⭐ 41.9k | Anthropic 官方维护的 Claude Code 插件市场，收录集成技能、子代理、钩子与 MCP 服务器的精选插件。 | [官方仓库](#official-repos) |
+| [**Superpowers**](https://github.com/obra/superpowers) ⭐ 302k | Jesse Vincent 打造的智能体技能框架与开发方法论，涵盖头脑风暴、规划、TDD、调试和子智能体驱动开发，已上架官方插件市场。 | [Agent Skills 技能](#skills) |
+| [**Claude Code Plugins (Official Directory)**](https://github.com/anthropics/claude-plugins-official) ⭐ 43k | Anthropic 官方维护的 Claude Code 插件市场，收录集成技能、子代理、钩子与 MCP 服务器的精选插件。 | [官方仓库](#official-repos) |
 | [**Claude Code GitHub Action**](https://github.com/anthropics/claude-code-action) ⭐ 9.6k | 官方 GitHub Action，在 PR 和 Issue 中运行 Claude Code：响应 @claude 提及、审查代码并实现修改。 | [官方仓库](#official-repos) |
-| [**ccusage**](https://github.com/ccusage/ccusage) ⭐ 19k | 免安装 CLI（npx ccusage），分析本地 Claude Code JSONL 日志，按日、月、会话和 5 小时窗口统计 token 用量与费用。 | [用量与成本监控](#usage-monitoring) |
+| [**ccusage**](https://github.com/ccusage/ccusage) ⭐ 19.1k | 免安装 CLI（npx ccusage），分析本地 Claude Code JSONL 日志，按日、月、会话和 5 小时窗口统计 token 用量与费用。 | [用量与成本监控](#usage-monitoring) |
 | [**CC Switch**](https://github.com/farion1231/cc-switch) ⭐ 146k | 跨平台桌面应用，为 Claude Code、Codex、OpenCode 等 CLI 代理一键切换 API 服务商，并管理配置、MCP 服务器和技能。 | [模型路由与供应商切换](#routers-proxies) |
 | [**Spec Kit**](https://github.com/github/spec-kit) ⭐ 142k | GitHub 官方开源的规格驱动开发（SDD）工具包，提供 constitution、specify、plan、tasks、implement 等命令，适用于 Claude Code 及其他代理。 | [框架与方法论](#frameworks) |
-| [**Context7**](https://github.com/upstash/context7) ⭐ 63.2k | Upstash 推出的 MCP 服务器与平台，为智能体上下文提供最新、按版本区分的库文档和代码示例。 | [MCP 服务器](#mcp-servers) |
+| [**Context7**](https://github.com/upstash/context7) ⭐ 63.3k | Upstash 推出的 MCP 服务器与平台，为智能体上下文提供最新、按版本区分的库文档和代码示例。 | [MCP 服务器](#mcp-servers) |
 | [**Learn Claude Code**](https://github.com/shareAI-lab/learn-claude-code) ⭐ 78.8k | 动手课程：用 Python 从零构建迷你版 Claude Code 智能体框架，每课新增一个机制；提供英/中/日文版。 | [指南与教程](#guides) |
 
 <a id="contents"></a>
@@ -85,12 +85,12 @@ _Anthropic 与 Model Context Protocol 项目官方发布的仓库、SDK、文档
 
 - 🏆 **[Anthropic Agent Skills](https://github.com/anthropics/skills)** ⭐ 182k — Anthropic 官方 Agent Skills 公共仓库，包含文档类技能（docx、pptx、xlsx、pdf）、示例及 skill-creator。
 - 🏆 **[Claude Code](https://github.com/anthropics/claude-code)** ⭐ 152k — Anthropic 官方智能体编程工具，支持终端、IDE、桌面与网页；仓库包含问题反馈、更新日志、插件和示例配置。
-- 🏆 **[Claude Cookbooks](https://github.com/anthropics/claude-cookbooks)** ⭐ 53.5k — 官方 Notebook 与示例集，涵盖工具调用、RAG、智能体、Agent SDK、Managed Agents、技能、评测与多模态。
-- 🏆 **[Claude Code Plugins (Official Directory)](https://github.com/anthropics/claude-plugins-official)** ⭐ 41.9k — Anthropic 官方维护的 Claude Code 插件市场，收录集成技能、子代理、钩子与 MCP 服务器的精选插件。
+- 🏆 **[Claude Cookbooks](https://github.com/anthropics/claude-cookbooks)** ⭐ 53.6k — 官方 Notebook 与示例集，涵盖工具调用、RAG、智能体、Agent SDK、Managed Agents、技能、评测与多模态。
+- 🏆 **[Claude Code Plugins (Official Directory)](https://github.com/anthropics/claude-plugins-official)** ⭐ 43k — Anthropic 官方维护的 Claude Code 插件市场，收录集成技能、子代理、钩子与 MCP 服务器的精选插件。
 - 🏆 **[Claude Code GitHub Action](https://github.com/anthropics/claude-code-action)** ⭐ 9.6k — 官方 GitHub Action，在 PR 和 Issue 中运行 Claude Code：响应 @claude 提及、审查代码并实现修改。
-- [Claude for Financial Services](https://github.com/anthropics/financial-services) ⭐ 40.2k — 面向金融业务的参考智能体、技能和数据连接器，可作为 Cowork 插件安装或通过 Managed Agents 部署。
-- [Knowledge Work Plugins](https://github.com/anthropics/knowledge-work-plugins) ⭐ 30k — 面向知识工作者的官方开源插件集，用于 Claude Cowork，覆盖销售、财务、法务、客服、市场等场景。
-- [Claude Quickstarts](https://github.com/anthropics/claude-quickstarts) ⭐ 18.4k — 基于 Claude API 的可部署入门项目，如客服智能体、金融分析、Computer Use 与自主编程演示。
+- [Claude for Financial Services](https://github.com/anthropics/financial-services) ⭐ 40.3k — 面向金融业务的参考智能体、技能和数据连接器，可作为 Cowork 插件安装或通过 Managed Agents 部署。
+- [Knowledge Work Plugins](https://github.com/anthropics/knowledge-work-plugins) ⭐ 30.3k — 面向知识工作者的官方开源插件集，用于 Claude Cowork，覆盖销售、财务、法务、客服、市场等场景。
+- [Claude Quickstarts](https://github.com/anthropics/claude-quickstarts) ⭐ 18.7k — 基于 Claude API 的可部署入门项目，如客服智能体、金融分析、Computer Use 与自主编程演示。
 - [Model Context Protocol Specification](https://github.com/modelcontextprotocol/modelcontextprotocol) ⭐ 9.5k — MCP 规范与文档源码；MCP 是 Anthropic 发起、用于连接 AI 应用与工具和数据的开放协议。
 - [Defending Code Reference Harness](https://github.com/anthropics/defending-code-reference-harness) ⭐ 7.6k — 用于威胁建模、漏洞扫描、分诊与修补的 Claude Code 技能，以及自主化的安全扫描参考框架。
 - [Claude Code Security Review](https://github.com/anthropics/claude-code-security-review) ⭐ 6.4k — 使用 Claude 分析代码变更安全漏洞并在 PR 中评论结果的 GitHub Action。
@@ -146,22 +146,22 @@ _即插即用的扩展内容：技能、子代理、斜杠命令、钩子、插�
 
 <sub>按需加载的指令、脚本与资源包。</sub>
 
-- 🏆 **[Superpowers](https://github.com/obra/superpowers)** ⭐ 301k — Jesse Vincent 打造的智能体技能框架与开发方法论，涵盖头脑风暴、规划、TDD、调试和子智能体驱动开发，已上架官方插件市场。
-- 🏆 **[mattpocock/skills](https://github.com/mattpocock/skills)** ⭐ 295k — Matt Pocock 分享的个人工程技能集，包括 grill-me、tdd、diagnosing-bugs 和 handoff，是 skills.sh 上安装量最高的技能之一。
-- 🏆 **[baoyu-skills](https://github.com/JimLiu/baoyu-skills)** 🇨🇳 ⭐ 26.7k — 宝玉分享的效率技能集，适用于 Claude Code 和 Codex：AI 生图、发布公众号、封面图、信息图、小红书卡片、幻灯片和知识漫画。
+- 🏆 **[Superpowers](https://github.com/obra/superpowers)** ⭐ 302k — Jesse Vincent 打造的智能体技能框架与开发方法论，涵盖头脑风暴、规划、TDD、调试和子智能体驱动开发，已上架官方插件市场。
+- 🏆 **[mattpocock/skills](https://github.com/mattpocock/skills)** ⭐ 297k — Matt Pocock 分享的个人工程技能集，包括 grill-me、tdd、diagnosing-bugs 和 handoff，是 skills.sh 上安装量最高的技能之一。
+- 🏆 **[baoyu-skills](https://github.com/JimLiu/baoyu-skills)** 🇨🇳 ⭐ 26.8k — 宝玉分享的效率技能集，适用于 Claude Code 和 Codex：AI 生图、发布公众号、封面图、信息图、小红书卡片、幻灯片和知识漫画。
 - 🏆 **[skills.sh](https://skills.sh)** 🌐 — Vercel 推出的开放 Agent Skills 目录和安装量排行榜，可浏览技能并通过 npx skills add 安装到 Claude Code 等智能体。
-- [Ponytail](https://github.com/DietrichGebert/ponytail) ⭐ 166k — 遵循 YAGNI 原则的技能兼 Claude Code 插件，让智能体像最“懒”的资深工程师一样少写代码、避免过度设计。
+- [Ponytail](https://github.com/DietrichGebert/ponytail) ⭐ 167k — 遵循 YAGNI 原则的技能兼 Claude Code 插件，让智能体像最“懒”的资深工程师一样少写代码、避免过度设计。
 - [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) ⭐ 137k — 提供设计智能的技能，帮助智能体在多平台、多框架下构建专业的 UI/UX。
-- [Caveman](https://github.com/JuliusBrussee/caveman) ⭐ 113k — 一个爆红的技能加代理，让编程智能体用“原始人”式简短语言说话以节省输出 token，作者实测整个会话约少用三分之一。
+- [Caveman](https://github.com/JuliusBrussee/caveman) ⭐ 114k — 一个爆红的技能加代理，让编程智能体用“原始人”式简短语言说话以节省输出 token，作者实测整个会话约少用三分之一。
 - [Agent Skills (addyosmani)](https://github.com/addyosmani/agent-skills) ⭐ 108k — Addy Osmani 为 AI 编程智能体编写的生产级工程技能集，包含 24 个软件生命周期技能和一个 using-agent-skills 元技能。
-- [Taste Skill](https://github.com/Leonxlnx/taste-skill) ⭐ 98.5k — 为编程智能体赋予设计品味的技能集：艺术指导、参考图和浏览器检查，避免生成千篇一律的 AI 风格页面。
-- [Humanizer](https://github.com/blader/humanizer) ⭐ 57.9k — 识别并去除文本中 AI 生成痕迹的智能体技能。
-- [i-have-adhd](https://github.com/ayghri/i-have-adhd) ⭐ 57.6k — 让编程智能体不再把答案埋在长篇大论里的技能，输出先给结论、对 ADHD 友好，已打包为 Claude Code 插件。
-- [Marketing Skills](https://github.com/coreyhaines31/marketingskills) ⭐ 55.3k — 面向 Claude Code 和 AI 智能体的营销技能集，涵盖转化率优化、文案、SEO、数据分析和增长工程。
-- [Scientific Agent Skills (K-Dense)](https://github.com/K-Dense-AI/scientific-agent-skills) ⭐ 52.3k — 提供 177 个以上科研技能并接入 100 多个科学数据库，把 Claude 或任意智能体变成 AI 科学家。原名 Claude Scientific Skills。
-- [Obsidian Skills](https://github.com/kepano/obsidian-skills) ⭐ 49.7k — Obsidian CEO 发布的智能体技能，教智能体使用 Obsidian CLI 及 Markdown、Bases、JSON Canvas 等开放格式。
-- [Awesome Agent Skills (VoltAgent)](https://github.com/VoltAgent/awesome-agent-skills) ⭐ 35.9k — 精选 1000 多个来自官方团队和社区的智能体技能，兼容 Claude Code、Codex、Gemini CLI 和 Cursor。
-- [vercel-labs/skills (npx skills)](https://github.com/vercel-labs/skills) ⭐ 35.4k — 开放智能体技能生态的命令行工具，可在 Claude Code、Codex、Cursor、OpenCode 等 75 款以上智能体中添加、查找、更新和移除技能。
+- [Taste Skill](https://github.com/Leonxlnx/taste-skill) ⭐ 99.1k — 为编程智能体赋予设计品味的技能集：艺术指导、参考图和浏览器检查，避免生成千篇一律的 AI 风格页面。
+- [Humanizer](https://github.com/blader/humanizer) ⭐ 58.3k — 识别并去除文本中 AI 生成痕迹的智能体技能。
+- [i-have-adhd](https://github.com/ayghri/i-have-adhd) ⭐ 57.8k — 让编程智能体不再把答案埋在长篇大论里的技能，输出先给结论、对 ADHD 友好，已打包为 Claude Code 插件。
+- [Marketing Skills](https://github.com/coreyhaines31/marketingskills) ⭐ 55.4k — 面向 Claude Code 和 AI 智能体的营销技能集，涵盖转化率优化、文案、SEO、数据分析和增长工程。
+- [Scientific Agent Skills (K-Dense)](https://github.com/K-Dense-AI/scientific-agent-skills) ⭐ 52.8k — 提供 177 个以上科研技能并接入 100 多个科学数据库，把 Claude 或任意智能体变成 AI 科学家。原名 Claude Scientific Skills。
+- [Obsidian Skills](https://github.com/kepano/obsidian-skills) ⭐ 49.8k — Obsidian CEO 发布的智能体技能，教智能体使用 Obsidian CLI 及 Markdown、Bases、JSON Canvas 等开放格式。
+- [Awesome Agent Skills (VoltAgent)](https://github.com/VoltAgent/awesome-agent-skills) ⭐ 36k — 精选 1000 多个来自官方团队和社区的智能体技能，兼容 Claude Code、Codex、Gemini CLI 和 Cursor。
+- [vercel-labs/skills (npx skills)](https://github.com/vercel-labs/skills) ⭐ 35.6k — 开放智能体技能生态的命令行工具，可在 Claude Code、Codex、Cursor、OpenCode 等 75 款以上智能体中添加、查找、更新和移除技能。
 - [Planning with Files](https://github.com/OthmanAdi/planning-with-files) ⭐ 27.5k — 面向长时间运行智能体任务的文件式持久规划技能：计划保存在磁盘上以应对上下文丢失，支持会话恢复和完成检查。
 - [Skill Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) ⭐ 15.2k — 技能生成工具，可将文档网站、GitHub 仓库和 PDF 转换为 Claude 技能，并自动检测冲突。
 - [Trail of Bits Skills](https://github.com/trailofbits/skills) ⭐ 7.6k — Trail of Bits 发布的 Claude Code 技能集，用于安全研究、漏洞检测和代码审计工作流。
@@ -176,7 +176,7 @@ _即插即用的扩展内容：技能、子代理、斜杠命令、钩子、插�
 <sub>拥有独立提示词、工具与上下文窗口的专用代理。</sub>
 
 - 🏆 **[The Agency (agency-agents)](https://github.com/msitarzewski/agency-agents)** ⭐ 161k — 爆红的“完整 AI 代理公司”项目，包含 230 多个职责、流程和交付物明确的专家智能体角色，原生 .md 文件可直接放入 ~/.claude/agents。
-- 🏆 **[wshobson/agents](https://github.com/wshobson/agents)** ⭐ 41k — 跨平台插件市场，以 94 个细分插件提供 200 多个智能体、185 个技能和 105 个命令，支持 Claude Code、Codex、Cursor 等。
+- 🏆 **[wshobson/agents](https://github.com/wshobson/agents)** ⭐ 41.1k — 跨平台插件市场，以 94 个细分插件提供 200 多个智能体、185 个技能和 105 个命令，支持 Claude Code、Codex、Cursor 等。
 - 🏆 **[awesome-claude-code-subagents (VoltAgent)](https://github.com/VoltAgent/awesome-claude-code-subagents)** ⭐ 25.8k — 收录 10 大类、161 个以上专业 Claude Code 子智能体，可通过插件市场按类别安装，也可用交互式脚本安装。
 - [contains-studio/agents](https://github.com/contains-studio/agents) ⭐ 12.4k — 按工作室部门组织的 37 个智能体，覆盖工程、设计、营销、产品、测试和运营，用于快速开发应用。
 - [awesome-claude-agents (vijaythecoder)](https://github.com/vijaythecoder/awesome-claude-agents) ⭐ 4.4k — 由 24 个子智能体组成的协同开发团队，包括编排者、框架专家和通用专家，分工协作完成功能开发。
@@ -208,9 +208,9 @@ _即插即用的扩展内容：技能、子代理、斜杠命令、钩子、插�
 - [peon-ping](https://github.com/PeonPing/peon-ping) ⭐ 5.1k — Claude Code 任务完成、请求权限或出错时，用魔兽争霸 III 苦工等 165 多套游戏语音提醒你，也支持 Codex、Cursor 和各类 IDE。
 - [TDD Guard](https://github.com/nizos/tdd-guard) ⭐ 2.4k — 基于钩子的 Claude Code 自动化 TDD 约束工具，阻止跳过失败测试或过度实现的代码改动。
 - [CC Safety Net](https://github.com/kenryu42/cc-safety-net) ⭐ 1.7k — 在工具调用执行前拦截破坏性 Git、文件系统命令和敏感文件访问的防护钩子，支持多种编程 CLI。
-- [Awesome Claude Code Mods](https://github.com/karanb192/awesome-claude-code-mods) ⭐ 635 — 公开 Claude Code Mods（函数钩子）的社区目录，逐一扫描每个 Mod 能读取、写入、执行或联网发送的内容。
-- [shanraisshan/claude-code-hooks](https://github.com/shanraisshan/claude-code-hooks) ⭐ 558 — 为每个 Claude Code 钩子事件添加语音/音效反馈，跟进最新 Claude Code 版本的 30 个钩子。
-- [karanb192/claude-code-hooks](https://github.com/karanb192/claude-code-hooks) ⭐ 543 — 钩子合集兼可安装的插件市场：拦截危险命令、保护密钥、Git 安全、指令审计、成本追踪和会话日志。
+- [Awesome Claude Code Mods](https://github.com/karanb192/awesome-claude-code-mods) ⭐ 648 — 公开 Claude Code Mods（函数钩子）的社区目录，逐一扫描每个 Mod 能读取、写入、执行或联网发送的内容。
+- [shanraisshan/claude-code-hooks](https://github.com/shanraisshan/claude-code-hooks) ⭐ 560 — 为每个 Claude Code 钩子事件添加语音/音效反馈，跟进最新 Claude Code 版本的 30 个钩子。
+- [karanb192/claude-code-hooks](https://github.com/karanb192/claude-code-hooks) ⭐ 544 — 钩子合集兼可安装的插件市场：拦截危险命令、保护密钥、Git 安全、指令审计、成本追踪和会话日志。
 - [cchooks](https://github.com/GowayLee/cchooks) ⭐ 131 — 用于编写 Claude Code 钩子的 Python SDK：解析 stdin JSON，支持全部事件类型，可用简单退出码或高级 JSON 控制。
 - [Claude Code docs: Mods overview](https://code.claude.com/docs/en/plugins/mods/overview) 📘 — Mods 文档：Mods 是带有进程内 JavaScript/TypeScript 钩子的插件，可拦截工具调用、添加即时命令，并在 Claude Code 界面中绘制面板。
 - [Official sample mods (claude-code-playground)](https://github.com/anthropics/claude-code-playground/tree/main/claude-code/mods) — Anthropic 官方示例 Mods：token-weather 上下文预报、拦截危险命令的 blast-radius，以及逐步回放上一轮编辑的 replay-theater。
@@ -221,12 +221,12 @@ _即插即用的扩展内容：技能、子代理、斜杠命令、钩子、插�
 
 <sub>打包命令、代理、技能、钩子与 MCP 服务器的可安装插件。</sub>
 
-- [Understand Anything](https://github.com/Egonex-AI/Understand-Anything) ⭐ 86.8k — Claude Code 插件，借助多智能体流水线把代码库或文档转化为可交互、可查询的知识图谱。
+- [Understand Anything](https://github.com/Egonex-AI/Understand-Anything) ⭐ 86.9k — Claude Code 插件，借助多智能体流水线把代码库或文档转化为可交互、可查询的知识图谱。
 - [Compound Engineering Plugin](https://github.com/EveryInc/compound-engineering-plugin) ⭐ 25.6k — Every 官方的复利工程插件：以“规划—执行—评审—沉淀”循环让每次工作都让下一次更轻松。
 - [Claude Plugins Community](https://github.com/anthropics/claude-plugins-community) ⭐ 4.7k — Anthropic 面向 Claude Code 和 Cowork 的只读社区插件市场镜像，插件经网页表单提交并通过安全扫描后上架。
-- [Build with Claude](https://github.com/davepoon/buildwithclaude) ⭐ 3.6k — Claude 技能、智能体、命令、钩子和插件的聚合中心兼插件市场，配套 buildwithclaude.com 发现站点。
-- [Claude Code Plugins Plus Skills (Tons of Skills)](https://github.com/jeremylongshore/tons-of-skills-marketplace) ⭐ 2.8k — 大型插件市场，提供 400 多个插件和约 2900 个技能，配套 ccpi 包管理器，可在 tonsofskills.com 浏览。
-- [Awesome Claude Plugins (Composio)](https://github.com/composio-community/awesome-claude-plugins) ⭐ 1.9k — 精选 Claude Code 插件清单，收录通过插件系统添加自定义命令、智能体、钩子和 MCP 服务器的插件。
+- [Build with Claude](https://github.com/davepoon/buildwithclaude) ⭐ 3.7k — Claude 技能、智能体、命令、钩子和插件的聚合中心兼插件市场，配套 buildwithclaude.com 发现站点。
+- [Claude Code Plugins Plus Skills (Tons of Skills)](https://github.com/jeremylongshore/tons-of-skills-marketplace) ⭐ 2.9k — 大型插件市场，提供 400 多个插件和约 2900 个技能，配套 ccpi 包管理器，可在 tonsofskills.com 浏览。
+- [Awesome Claude Plugins (Composio)](https://github.com/composio-community/awesome-claude-plugins) ⭐ 2k — 精选 Claude Code 插件清单，收录通过插件系统添加自定义命令、智能体、钩子和 MCP 服务器的插件。
 - [claude-plugins.dev](https://github.com/Kamalnrf/claude-plugins) ⭐ 564 — 轻量级注册表与 CLI，用于发现、安装和管理公开的 Claude 插件与智能体技能，可在 claude-plugins.dev 浏览。
 - [Claude Marketplace: Plugins](https://claude.com/marketplace/plugins) 🌐 — Anthropic 的网页插件目录，收录 300 多个集成工具、技能和连接器的插件，适用于 Claude Code 和 claude.ai，如 Frontend Design、Superpowers、Context7。
 - [Claude Code demo plugins](https://github.com/anthropics/claude-code/tree/main/plugins) — Claude Code 仓库中的 Anthropic 示例插件：code-review、feature-dev、frontend-design、pr-review-toolkit、plugin-dev、security-guidance 等。
@@ -238,7 +238,7 @@ _即插即用的扩展内容：技能、子代理、斜杠命令、钩子、插�
 
 <sub>入门套件、记忆文件、设置与输出风格。</sub>
 
-- 🏆 **[ECC (Everything Claude Code)](https://github.com/affaan-m/ECC)** ⭐ 283k — 超大型智能体配置体系：71 个智能体、300 多个技能、钩子、规则、记忆以及 AgentShield 安全扫描，支持 Claude Code、Codex、Cursor 等。
+- 🏆 **[ECC (Everything Claude Code)](https://github.com/affaan-m/ECC)** ⭐ 284k — 超大型智能体配置体系：71 个智能体、300 多个技能、钩子、规则、记忆以及 AgentShield 安全扫描，支持 Claude Code、Codex、Cursor 等。
 - 🏆 **[Claude Code Templates (aitmpl)](https://github.com/davila7/claude-code-templates)** ⭐ 32.7k — 命令行工具及 aitmpl.com 模板目录，可一键安装智能体、命令、设置、钩子、MCP 和技能，并提供数据分析、会话监控和健康检查。
 - [Claude Code Infrastructure Showcase](https://github.com/diet103/claude-code-infrastructure-showcase) ⭐ 10k — 真实 Claude Code 基础设施的参考示例：通过钩子自动激活技能、专业智能体及配套配置。
 - [Claude Code Showcase](https://github.com/ChrisWiles/claude-code-showcase) ⭐ 6.1k — 完整的项目配置示例，涵盖钩子、技能、智能体、命令和 GitHub Actions 工作流。
@@ -267,8 +267,8 @@ _规模化使用 Claude Code 的方法论与运行器：规格驱动开发、并
 
 - 🏆 **[Spec Kit](https://github.com/github/spec-kit)** ⭐ 142k — GitHub 官方开源的规格驱动开发（SDD）工具包，提供 constitution、specify、plan、tasks、implement 等命令，适用于 Claude Code 及其他代理。
 - 🏆 **[BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)** ⭐ 54.3k — 敏捷 AI 驱动开发方法论：由分析师、产品经理、架构师、开发、QA 等角色代理贯穿软件生命周期，产出规划文档与用户故事。
-- 🏆 **[GSD Core (Get Shit Done)](https://github.com/open-gsd/gsd-core)** ⭐ 10.6k — 轻量级元提示、上下文工程与规格驱动开发系统，引导代理按可重复的阶段循环工作；get-shit-done 的延续项目。
-- [OpenSpec](https://github.com/Fission-AI/OpenSpec) ⭐ 72.3k — 面向 AI 编程助手的轻量级规格驱动开发，以变更提案的提出、评审与归档为核心，尤其适合存量项目。
+- 🏆 **[GSD Core (Get Shit Done)](https://github.com/open-gsd/gsd-core)** ⭐ 10.7k — 轻量级元提示、上下文工程与规格驱动开发系统，引导代理按可重复的阶段循环工作；get-shit-done 的延续项目。
+- [OpenSpec](https://github.com/Fission-AI/OpenSpec) ⭐ 72.4k — 面向 AI 编程助手的轻量级规格驱动开发，以变更提案的提出、评审与归档为核心，尤其适合存量项目。
 - [Task Master](https://github.com/eyaltoledano/claude-task-master) ⭐ 28.2k — AI 任务管理系统，把 PRD 拆解为带依赖关系的任务，可通过 MCP 或 CLI 在 Claude Code、Cursor 等工具中使用。
 - [Archon](https://github.com/coleam00/Archon) ⭐ 23.7k — 工作流引擎，用 YAML 定义计划、实现、验证、提交 PR 等步骤，让 Claude Code、Codex 或 Pi 的运行确定且可重复。
 - [Trellis](https://github.com/mindfold-ai/Trellis) 🇨🇳 ⭐ 15k — 面向团队的 AI 编码框架，把臃肿的 CLAUDE.md 拆成渐进加载的规范、任务、工作流与记忆，通过 hooks 自动注入，支持 Claude Code/Cursor/Codex，有中文文档。
@@ -290,19 +290,19 @@ _规模化使用 Claude Code 的方法论与运行器：规格驱动开发、并
 
 <sub>在 worktree、后台或集群中并行运行多个 Claude Code 会话。</sub>
 
-- 🏆 **[Orca](https://github.com/stablyai/orca)** ⭐ 95.5k — MIT 许可的桌面编排器（附移动端），可在 git worktree 中并排运行大量 Claude Code、Codex 等 CLI 代理。
-- 🏆 **[Ruflo (formerly Claude Flow)](https://github.com/ruvnet/ruflo)** ⭐ 76.1k — 用于部署多代理集群与自主工作流的代理框架，具备自适应记忆、联邦与向量 RAG；最初围绕 Claude Code 构建。
+- 🏆 **[Orca](https://github.com/stablyai/orca)** ⭐ 97.3k — MIT 许可的桌面编排器（附移动端），可在 git worktree 中并排运行大量 Claude Code、Codex 等 CLI 代理。
+- 🏆 **[Ruflo (formerly Claude Flow)](https://github.com/ruvnet/ruflo)** ⭐ 76.8k — 用于部署多代理集群与自主工作流的代理框架，具备自适应记忆、联邦与向量 RAG；最初围绕 Claude Code 构建。
 - 🏆 **[Claude Squad](https://github.com/smtg-ai/claude-squad)** ⭐ 8.6k — 终端应用，在 tmux 中管理多个 Claude Code、Codex、OpenCode 或 Amp 会话，每个会话隔离在独立的 git worktree 中。
 - [Paperclip](https://github.com/paperclipai/paperclip) ⭐ 104k — 自托管平台，把 Claude Code 等代理编排成一家“公司”，提供组织架构、工单跟踪、预算与治理。
-- [Multica](https://github.com/multica-ai/multica) ⭐ 53.1k — 可自托管的工作区，把 issue 分配给 Claude Code 等编程代理，它们会像同事一样汇报进度与阻塞。
-- [herdr](https://github.com/herdrdev/herdr) ⭐ 44.5k — Rust 编写的终端运行时，让编程代理会话在后台持续运行，标记各窗格为工作、阻塞或空闲，并允许代理互相控制。
-- [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) 🇰🇷 ⭐ 40k — 以团队为先的 Claude Code 多代理编排层，提供 Team、Autopilot、Execute、Verify 等模式，并可用 tmux 调度其他 CLI。
+- [Multica](https://github.com/multica-ai/multica) ⭐ 53.2k — 可自托管的工作区，把 issue 分配给 Claude Code 等编程代理，它们会像同事一样汇报进度与阻塞。
+- [herdr](https://github.com/herdrdev/herdr) ⭐ 44.7k — Rust 编写的终端运行时，让编程代理会话在后台持续运行，标记各窗格为工作、阻塞或空闲，并允许代理互相控制。
+- [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) 🇰🇷 ⭐ 40.1k — 以团队为先的 Claude Code 多代理编排层，提供 Team、Autopilot、Execute、Verify 等模式，并可用 tmux 调度其他 CLI。
 - [Vibe Kanban](https://github.com/BloopAI/vibe-kanban) ⭐ 28.4k — 看板工具，用于规划、运行和审阅 Claude Code、Codex 等编程代理，每个代理在独立 worktree 中工作。
 - [Ralph](https://github.com/snarktank/ralph) ⭐ 22k — 自主 AI 代理循环，以全新上下文反复运行编程代理，直到 PRD 中的所有条目完成。
-- [Paseo](https://github.com/getpaseo/paseo) ⭐ 21.2k — Apache-2.0 许可的代理式开发环境，可在桌面、移动端、Web 或 CLI 上于 worktree 中运行包括 Claude Code 在内的多个代理。
+- [Paseo](https://github.com/getpaseo/paseo) ⭐ 21.4k — Apache-2.0 许可的代理式开发环境，可在桌面、移动端、Web 或 CLI 上于 worktree 中运行包括 Claude Code 在内的多个代理。
 - [Gas Town](https://github.com/gastownhall/gastown) ⭐ 18.4k — Steve Yegge 打造的多代理工作区管理器，用 git 持久化工作状态，通过代理邮件和合并队列协调大量 Claude Code 代理。
 - [cc-connect](https://github.com/chenhg5/cc-connect) 🇨🇳 ⭐ 16k — 将本地 Claude Code 等编程代理接入飞书、钉钉、Slack、Telegram、Discord、企业微信、LINE、QQ 等聊天平台的桥接工具。
-- [Superset](https://github.com/superset-sh/superset) ⭐ 15.3k — 代理式 IDE 与终端，可跨 git worktree 并行编排大量 Claude Code 与 Codex 代理。
+- [Superset](https://github.com/superset-sh/superset) ⭐ 15.4k — 代理式 IDE 与终端，可跨 git worktree 并行编排大量 Claude Code 与 Codex 代理。
 - [Aperant (formerly Auto Claude)](https://github.com/AndyMik90/Aperant) ⭐ 14.6k — 自主多会话编程桌面应用，可同时运行最多 12 个代理终端，并带有规划与 QA 循环。
 - [Agent Orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) ⭐ 13.3k — 运行并监督编程代理团队（含 Claude Code），覆盖从规划到合并的全过程，支持多种代理框架与平台。
 - [Ralph for Claude Code](https://github.com/frankbria/ralph-claude-code) ⭐ 9.7k — 面向 Claude Code 的自主开发循环，具备智能退出检测和防止失控迭代的保护机制。
@@ -313,7 +313,7 @@ _规模化使用 Claude Code 的方法论与运行器：规格驱动开发、并
 - [Claude Code Telegram](https://github.com/overwirehq/claude-code-telegram) ⭐ 2.8k — Telegram 机器人，提供带会话持久化的 Claude Code 远程访问，可在任意设备上处理项目。
 - [MCP Agent Mail](https://github.com/Dicklesworthstone/mcp_agent_mail) ⭐ 2.2k — 编程代理的异步协作层，提供身份、收件箱、线程与建议性文件租约，通过 MCP 暴露。
 - [Nimbalyst (formerly Crystal)](https://github.com/nimbalyst/nimbalyst) ⭐ 1.9k — 开源可视化工作区，可在并行 worktree 中运行 Claude Code、Codex 与 OpenCode，提供看板、可视化编辑和 iOS 配套应用。
-- [CLI Agent Orchestrator](https://github.com/awslabs/cli-agent-orchestrator) ⭐ 1.4k — AWS Labs 工具，以主管与工作者模式在隔离的 tmux 会话中协调 Claude Code、Kiro、Codex 等多个编程 CLI。
+- [CLI Agent Orchestrator](https://github.com/awslabs/cli-agent-orchestrator) ⭐ 1.5k — AWS Labs 工具，以主管与工作者模式在隔离的 tmux 会话中协调 Claude Code、Kiro、Codex 等多个编程 CLI。
 - [CCManager](https://github.com/kbwo/ccmanager) 🇯🇵 ⭐ 1.3k — 会话管理器，可在多个 git worktree 间运行并切换 Claude Code、Gemini CLI 与 Codex CLI 会话。
 - [Conductor](https://www.conductor.build) 🌐 — Melty Labs 出品的 Mac 应用，可在隔离工作区中同时运行多个 Claude Code、Codex 与 Cursor 代理，并审阅、合并其成果。
 
@@ -322,19 +322,19 @@ _规模化使用 Claude Code 的方法论与运行器：规格驱动开发、并
 
 <sub>持久记忆、代码库索引与上下文工程。</sub>
 
-- 🏆 **[claude-mem](https://github.com/thedotmack/claude-mem)** ⭐ 101k — 持久记忆插件，通过钩子捕获 Claude Code 会话活动，用 AI 压缩后在后续会话中注入相关上下文。
+- 🏆 **[claude-mem](https://github.com/thedotmack/claude-mem)** ⭐ 102k — 持久记忆插件，通过钩子捕获 Claude Code 会话活动，用 AI 压缩后在后续会话中注入相关上下文。
 - 🏆 **[Serena](https://github.com/oraios/serena)** 🇩🇪 ⭐ 30.4k — MCP 工具包，借助语言服务器为编程代理提供类 IDE 的语义代码检索与符号级编辑，是 Claude Code 的热门搭档。
 - 🏆 **[Beads](https://github.com/gastownhall/beads)** ⭐ 28k — Steve Yegge 开发的基于 git 的问题跟踪器，为编程代理提供工作项、依赖与进度的持久记忆。
-- [Graphify](https://github.com/Graphify-Labs/graphify) ⭐ 128k — 把代码、文档、SQL 模式、配置与 PDF 转为可查询的知识图谱，并为 Claude Code 安装 /graphify 技能。
-- [Headroom](https://github.com/headroomlabs-ai/headroom) ⭐ 75.6k — 压缩层，在工具输出、日志、文件和 RAG 片段送达模型前进行压缩，降低编程代理的 token 消耗。
-- [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) ⭐ 46.8k — 代码智能 MCP 服务器，把代码库索引为持久知识图谱，支持快速且节省 token 的结构化查询。
-- [code-review-graph](https://github.com/tirth8205/code-review-graph) ⭐ 32.2k — 本地代码智能图谱，支持 MCP 与 CLI，让 AI 工具只读取相关代码，从而减少 token 消耗。
-- [context-mode](https://github.com/mksglu/context-mode) ⭐ 30.5k — Claude Code 插件与 MCP 服务器，把庞大的工具输出挡在上下文之外，用 SQLite 持久化会话状态并在压缩后恢复。
+- [Graphify](https://github.com/Graphify-Labs/graphify) ⭐ 129k — 把代码、文档、SQL 模式、配置与 PDF 转为可查询的知识图谱，并为 Claude Code 安装 /graphify 技能。
+- [Headroom](https://github.com/headroomlabs-ai/headroom) ⭐ 75.9k — 压缩层，在工具输出、日志、文件和 RAG 片段送达模型前进行压缩，降低编程代理的 token 消耗。
+- [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) ⭐ 46.9k — 代码智能 MCP 服务器，把代码库索引为持久知识图谱，支持快速且节省 token 的结构化查询。
+- [code-review-graph](https://github.com/tirth8205/code-review-graph) ⭐ 32.3k — 本地代码智能图谱，支持 MCP 与 CLI，让 AI 工具只读取相关代码，从而减少 token 消耗。
+- [context-mode](https://github.com/mksglu/context-mode) ⭐ 30.9k — Claude Code 插件与 MCP 服务器，把庞大的工具输出挡在上下文之外，用 SQLite 持久化会话状态并在压缩后恢复。
 - [Repomix](https://github.com/yamadashy/repomix) 🇯🇵 ⭐ 28.9k — 把整个仓库打包成单个 AI 友好的文件供大模型读取，可作为 CLI 或 MCP 服务器使用。
 - [Claude Obsidian](https://github.com/AgriciDaniel/claude-obsidian) ⭐ 15.6k — Obsidian 与 Claude Code 组合的“第二大脑”，把资料归档为自组织、相互链接的 Markdown 知识图谱。
 - [Claude Context](https://github.com/zilliztech/claude-context) 🇨🇳 ⭐ 12.6k — Zilliz 推出的语义代码搜索 MCP 服务器，把整个代码库索引进向量数据库，作为编程代理的上下文。
 - [Autoharness](https://github.com/tigerless-labs/autoharness) ⭐ 11.1k — Claude Code 自学习技能层：钩子记录会话，后台反思器提炼、更新并清理 .claude/skills 中的技能。
-- [Trail-Code](https://github.com/trailhq/Trail-Code) ⭐ 10.3k — 自学习上下文层，将 tree-sitter 代码图谱与团队保存的经验结合，通过钩子和 MCP 服务器注入 Claude Code。
+- [Trail-Code](https://github.com/trailhq/Trail-Code) ⭐ 10.4k — 自学习上下文层，将 tree-sitter 代码图谱与团队保存的经验结合，通过钩子和 MCP 服务器注入 Claude Code。
 - [Engram](https://github.com/Gentleman-Programming/engram) ⭐ 7.4k — 与代理无关的持久记忆系统，以单个 Go 二进制文件发布，使用 SQLite 存储并提供 MCP 接口。
 - [Continuous Claude v3](https://github.com/parcadei/Continuous-Claude-v3) ⭐ 3.9k — Claude Code 上下文管理方案，借助钩子、账本、交接文档与隔离代理，在上下文压缩和会话之间保留状态。
 - [Ruler](https://github.com/intellectronica/ruler) ⭐ 2.9k — 用同一份规则源统一管理所有编程代理，自动生成并同步 CLAUDE.md、AGENTS.md 等代理指令文件。
@@ -357,7 +357,7 @@ _围绕 CLI 的周边工具：用量统计、状态栏、图形界面、编辑�
 <sub>统计 Token、费用与限额窗口。</sub>
 
 - 🏆 **[CodexBar](https://github.com/steipete/CodexBar)** ⭐ 22.6k — Peter Steinberger 开发的 macOS 菜单栏应用，无需登录即可显示 Claude Code 和 OpenAI Codex 的用量统计与额度。
-- 🏆 **[ccusage](https://github.com/ccusage/ccusage)** 🇯🇵 ⭐ 19k — 免安装 CLI（npx ccusage），分析本地 Claude Code JSONL 日志，按日、月、会话和 5 小时窗口统计 token 用量与费用。
+- 🏆 **[ccusage](https://github.com/ccusage/ccusage)** 🇯🇵 ⭐ 19.1k — 免安装 CLI（npx ccusage），分析本地 Claude Code JSONL 日志，按日、月、会话和 5 小时窗口统计 token 用量与费用。
 - [CodeBurn](https://github.com/getagentseal/codeburn) ⭐ 11.5k — 免费本地工具，追踪 37 种 AI 编程工具的 token 用量和费用，按项目、模型和任务细分，并找出 token 浪费。
 - [Claude Code Usage Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor) ⭐ 8.7k — 实时终端监控 Claude Code 用量，提供消耗速率预测、套餐额度预警和会话重置跟踪。
 - [Tokscale](https://github.com/junhoyeo/tokscale) 🇰🇷 ⭐ 5.7k — 终端工具，追踪 Claude Code 等 AI 编程智能体的 token 用量，并提供可选的全球用量排行榜。
@@ -376,9 +376,9 @@ _围绕 CLI 的周边工具：用量统计、状态栏、图形界面、编辑�
 - 🏆 **[ccstatusline](https://github.com/sirmalloc/ccstatusline)** ⭐ 13.3k — 高度可定制的 Claude Code 状态栏，带交互式 TUI 配置器、powerline 主题，以及模型、git、token、上下文和用量等组件。
 - [CCometixLine](https://github.com/Haleclipse/CCometixLine) 🇨🇳 ⭐ 3.5k — 用 Rust 编写的高性能 Claude Code 状态栏，包含 git、模型和上下文等分段，支持 TUI 主题配置和 Claude Code 增强工具。
 - [claude-powerline](https://github.com/Owloops/claude-powerline) ⭐ 1.2k — Vim 风格的 Claude Code powerline 状态栏，支持实时用量与费用追踪、git 集成和自定义主题。
-- [cc-statusline](https://github.com/chongdashu/cc-statusline) ⭐ 645 — 交互式配置工具，生成并安装信息丰富的 Claude Code 状态栏脚本，显示模型、目录、git、上下文和费用。
+- [cc-statusline](https://github.com/chongdashu/cc-statusline) ⭐ 646 — 交互式配置工具，生成并安装信息丰富的 Claude Code 状态栏脚本，显示模型、目录、git、上下文和费用。
 - [claude-code-statusline (rz1989s)](https://github.com/rz1989s/claude-code-statusline) ⭐ 480 — 功能丰富的 Claude Code 状态栏，支持灵活的多行布局、实时费用追踪、MCP 状态和可配置主题。
-- [claude-statusbar (claude-code-usage-bar)](https://github.com/leeguooooo/claude-code-usage-bar) ⭐ 377 — 轻量级状态栏，显示 5 小时和 7 天限额用量及重置倒计时、上下文窗口、提示缓存过期时间和会话费用。
+- [claude-statusbar (claude-code-usage-bar)](https://github.com/leeguooooo/claude-code-usage-bar) ⭐ 378 — 轻量级状态栏，显示 5 小时和 7 天限额用量及重置倒计时、上下文窗口、提示缓存过期时间和会话费用。
 - [Status line docs (official)](https://code.claude.com/docs/en/statusline) 📘 — 官方指南：通过 settings.json 和从 stdin 接收会话 JSON 的脚本来配置 Claude Code 自定义状态栏。
 
 <a id="gui-clients"></a>
@@ -391,7 +391,7 @@ _围绕 CLI 的周边工具：用量统计、状态栏、图形界面、编辑�
 - 🏆 **[opcode](https://github.com/winfunc/opcode)** ⭐ 22.4k — Claude Code 桌面 GUI 与工具集（前身为 Claudia）：管理会话、创建自定义代理、追踪用量并配置 MCP 服务器。
 - 🏆 **[CloudCLI (Claude Code UI)](https://github.com/siteboon/claudecodeui)** ⭐ 14.2k — Web 与移动端 PWA，可远程驱动 Claude Code、Codex、Cursor CLI 和 OpenCode，内置文件浏览、git、终端和会话管理。
 - 🏆 **[Claudable](https://github.com/anymorph-ai/Claudable)** ⭐ 4.1k — 开源的类 Lovable 网页应用构建器，借助 Claude Code、Codex 等本地 CLI 代理生成并预览应用。
-- [cmux](https://github.com/manaflow-ai/cmux) ⭐ 28.2k — 基于 Ghostty 的开源 macOS 终端，带垂直标签页和通知，专为运行 Claude Code 等 AI 编程代理而设计。
+- [cmux](https://github.com/manaflow-ai/cmux) ⭐ 28.3k — 基于 Ghostty 的开源 macOS 终端，带垂直标签页和通知，专为运行 Claude Code 等 AI 编程代理而设计。
 - [CodePilot](https://github.com/op7418/CodePilot) 🇨🇳 ⭐ 6.5k — AI 博主歸藏（op7418）开发的多模型 Agent 桌面客户端，支持 MCP 与 Skills，可用手机远程控制，基于 Electron + Next.js。
 - [VibeTunnel](https://github.com/amantus-ai/vibetunnel) ⭐ 4.7k — 把任意浏览器变成你的终端，随时随地（包括手机上）监控和操控 Claude Code 等代理。
 - [Vibe Notch (formerly Claude Island)](https://github.com/farouqaldori/vibe-notch) ⭐ 2.5k — macOS 刘海应用，以灵动岛风格显示 Claude Code 会话状态，并可在浮层中批准或拒绝工具权限请求。
@@ -421,7 +421,7 @@ _围绕 CLI 的周边工具：用量统计、状态栏、图形界面、编辑�
 <sub>让 Claude Code 接入其他模型后端，或在不同供应商与配置间切换。</sub>
 
 - 🏆 **[CC Switch](https://github.com/farion1231/cc-switch)** 🇨🇳 ⭐ 146k — 跨平台桌面应用，为 Claude Code、Codex、OpenCode 等 CLI 代理一键切换 API 服务商，并管理配置、MCP 服务器和技能。
-- 🏆 **[Claude Code Router](https://github.com/musistudio/claude-code-router)** 🇨🇳 ⭐ 37.7k — 将 Claude Code 请求路由到其他模型和服务商（DeepSeek、Gemini、OpenRouter、Ollama 等），支持按任务路由规则和请求转换器。
+- 🏆 **[Claude Code Router](https://github.com/musistudio/claude-code-router)** 🇨🇳 ⭐ 37.8k — 将 Claude Code 请求路由到其他模型和服务商（DeepSeek、Gemini、OpenRouter、Ollama 等），支持按任务路由规则和请求转换器。
 - [ZCF (Zero-Config Code Flow)](https://github.com/UfoMiao/zcf) 🇨🇳 ⭐ 6.1k — 零配置 CLI，一条命令完成 Claude Code 与 Codex 的初始化，包括 API 服务商、工作流、输出风格、MCP 服务和状态栏。
 - [claude-code-proxy (1rgs)](https://github.com/1rgs/claude-code-proxy) ⭐ 3.8k — 代理工具，通过 LiteLLM 转换 Anthropic API 请求，让 Claude Code 使用 OpenAI 或 Gemini 模型运行。
 - [Claude Code Local](https://github.com/nicedreamzapp/claude-code-local) ⭐ 3.4k — 通过 MLX 原生的 Anthropic API 兼容服务器，在 Apple Silicon 上完全本地运行 Claude Code，使用本地 Qwen、Gemma 和 Llama 模型。
@@ -444,7 +444,7 @@ _围绕 CLI 的周边工具：用量统计、状态栏、图形界面、编辑�
 - [VibeKit](https://github.com/superagent-ai/vibekit) ⭐ 1.9k — 在干净、隔离的沙箱中运行 Claude Code、Codex、Gemini 或任意编程代理，支持敏感数据脱敏和可观测性。
 - [ClaudeBox](https://github.com/RchGrav/claudebox) ⭐ 1.2k — 基于 Docker 的 Claude Code 开发环境，支持按项目隔离、预置语言配置和网络防火墙控制。
 - [Trail of Bits claude-code-devcontainer](https://github.com/trailofbits/claude-code-devcontainer) ⭐ 955 — Trail of Bits 出品的沙箱化 devcontainer，可安全地以跳过权限模式运行 Claude Code，专为安全审计和不可信代码设计。
-- [Code on Incus (coi)](https://github.com/coipond/coi) ⭐ 752 — 为每个 AI 编程代理分配独立的 Incus 隔离机器，具备 root、Docker 和 systemd，并提供主动威胁检测。
+- [Code on Incus (coi)](https://github.com/coipond/coi) ⭐ 755 — 为每个 AI 编程代理分配独立的 Incus 隔离机器，具备 root、Docker 和 systemd，并提供主动威胁检测。
 - [Docker Sandboxes](https://docs.docker.com/ai/sandboxes) 📘 — Docker 推出的基于微虚拟机的沙箱，可在隔离的文件系统和网络策略下自主运行 Claude Code 等编程代理。
 - [Development containers (official)](https://code.claude.com/docs/en/devcontainer) 📘 — 官方参考 devcontainer，带白名单防火墙，用于隔离运行 Claude Code，包括无人值守的 --dangerously-skip-permissions 模式。
 
@@ -453,7 +453,7 @@ _围绕 CLI 的周边工具：用量统计、状态栏、图形界面、编辑�
 
 <sub>在 PR、Issue 与流水线中使用 Claude。</sub>
 
-- [Cyrus](https://github.com/cyrusagents/cyrus) ⭐ 856 — 可自托管的 Claude Code 后台代理，从 Linear、Slack、GitHub 和 GitLab 领取任务，在隔离环境中工作并提交 PR。
+- [Cyrus](https://github.com/cyrusagents/cyrus) ⭐ 857 — 可自托管的 Claude Code 后台代理，从 Linear、Slack、GitHub 和 GitLab 领取任务，在隔离环境中工作并提交 PR。
 - [Claude Hub](https://github.com/claude-did-this/claude-hub) ⭐ 488 — Webhook 服务，将 Claude Code 接入 GitHub 仓库，在 issue 和 PR 中 @ 提及即可触发 AI 代码协助。
 - [Claude Code Gitea Action](https://github.com/markwylde/claude-code-gitea-action) ⭐ 165 — claude-code-action 的 Gitea 移植版，在自托管 Gitea 仓库中支持通过 @claude 进行审查和代码修改。
 - [Claude Code Review (managed)](https://code.claude.com/docs/en/code-review) 📘 — Anthropic 托管的多代理 PR 审查服务，面向 GitHub 上的 Team 与 Enterprise 套餐，发布经验证并按严重程度排序的行内问题。
@@ -494,24 +494,24 @@ _Claude 连接工具与数据的开放协议：热门服务器、SDK 与目录�
 
 **🧑‍💻 开发工具与代码**
 
-- 🏆 **[MCP Reference Servers](https://github.com/modelcontextprotocol/servers)** ⭐ 91.3k — 官方 MCP 参考服务器合集（Everything、Fetch、Filesystem、Git、Memory、Sequential Thinking、Time），并收录大量第三方服务器索引。
+- 🏆 **[MCP Reference Servers](https://github.com/modelcontextprotocol/servers)** ⭐ 91.4k — 官方 MCP 参考服务器合集（Everything、Fetch、Filesystem、Git、Memory、Sequential Thinking、Time），并收录大量第三方服务器索引。
 - 🏆 **[GitHub MCP Server](https://github.com/github/github-mcp-server)** ⭐ 33.7k — GitHub 官方 MCP 服务器，支持仓库、Issue、PR、Actions 和代码安全等操作，可本地运行或使用托管远程服务。
 - [XcodeBuildMCP (MobileBuildMCP)](https://github.com/getsentry/MobileBuildMCP) ⭐ 6.5k — 让智能体通过 Xcode 和模拟器构建、运行、测试和调试 iOS 与 macOS 项目的 MCP 服务器及 CLI。
 - [Atlassian MCP Server (Rovo MCP)](https://github.com/atlassian/atlassian-mcp-server) ⭐ 1.1k — Atlassian 官方远程 MCP 服务器，将 Jira、Confluence、Jira Service Management、Bitbucket、Compass 和 Loom 接入 Claude。
-- [Sentry MCP](https://github.com/getsentry/toolkit) ⭐ 932 — Sentry 官方 MCP 服务器（托管于 mcp.sentry.dev），可在智能体中排查生产错误、Issue、链路追踪与根因。
+- [Sentry MCP](https://github.com/getsentry/toolkit) ⭐ 933 — Sentry 官方 MCP 服务器（托管于 mcp.sentry.dev），可在智能体中排查生产错误、Issue、链路追踪与根因。
 - [GitLab MCP Server](https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server) 📘 — GitLab 内置的 MCP 服务器（Beta），让 Claude 等 AI 工具访问项目、Issue、合并请求和流水线。
 - [Linear MCP Server](https://linear.app/docs/mcp) 📘 — Linear 官方托管远程 MCP 服务器，支持 OAuth，可查找、创建和更新 Issue、项目与评论。
 
 **🌐 浏览器自动化**
 
 - 🏆 **[Browser Use](https://github.com/browser-use/browser-use)** ⭐ 118k — 流行的开源 Python AI 浏览器智能体库，也可作为 MCP 服务器供 Claude Desktop 和 Claude Code 使用。
-- 🏆 **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** ⭐ 53.7k — Chrome DevTools 官方 MCP 服务器，让编码智能体控制并检查真实 Chrome：性能追踪、网络、控制台和截图。
-- 🏆 **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** ⭐ 38.3k — 微软官方浏览器自动化 MCP 服务器，基于 Playwright 无障碍快照而非截图，实现快速、确定性的控制。
+- 🏆 **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** ⭐ 53.8k — Chrome DevTools 官方 MCP 服务器，让编码智能体控制并检查真实 Chrome：性能追踪、网络、控制台和截图。
+- 🏆 **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** ⭐ 38.4k — 微软官方浏览器自动化 MCP 服务器，基于 Playwright 无障碍快照而非截图，实现快速、确定性的控制。
 - [Chrome MCP Server (mcp-chrome)](https://github.com/hangwin/mcp-chrome) 🇨🇳 ⭐ 12.5k — Chrome 扩展，将你日常使用的浏览器（保留登录态与设置）暴露为 MCP 服务器，支持自动化和语义标签页搜索。
 
 **🔍 文档、搜索与网页**
 
-- 🏆 **[Context7](https://github.com/upstash/context7)** ⭐ 63.2k — Upstash 推出的 MCP 服务器与平台，为智能体上下文提供最新、按版本区分的库文档和代码示例。
+- 🏆 **[Context7](https://github.com/upstash/context7)** ⭐ 63.3k — Upstash 推出的 MCP 服务器与平台，为智能体上下文提供最新、按版本区分的库文档和代码示例。
 - [GitMCP](https://github.com/idosal/git-mcp) ⭐ 8.5k — 免费开源的远程 MCP 服务器（gitmcp.io），可将任意 GitHub 项目变为文档来源，减少代码幻觉。
 - [Firecrawl MCP Server](https://github.com/firecrawl/firecrawl-mcp-server) ⭐ 7.6k — Firecrawl 官方 MCP 服务器，为 Claude 等客户端提供网页抓取、爬取、搜索和结构化提取。
 - [Exa MCP Server](https://github.com/exa-labs/exa-mcp-server) ⭐ 5.1k — Exa 官方 MCP 服务器，提供面向 AI 的网页搜索、代码搜索与网页抓取，支持本地或托管使用。
@@ -531,20 +531,20 @@ _Claude 连接工具与数据的开放协议：热门服务器、SDK 与目录�
 **☁️ 云与基础设施**
 
 - [AWS MCP Servers](https://github.com/awslabs/mcp) ⭐ 9.8k — AWS Labs 开源 MCP 服务器套件，覆盖 AWS 文档、API、CDK、EKS、Serverless、成本分析等众多服务。
-- [Google MCP](https://github.com/google/mcp) ⭐ 4.6k — 谷歌官方 MCP 服务器汇总，涵盖 Google Cloud、地图、Firebase、Workspace、数据库等远程与开源服务器。
+- [Google MCP](https://github.com/google/mcp) ⭐ 4.7k — 谷歌官方 MCP 服务器汇总，涵盖 Google Cloud、地图、Firebase、Workspace、数据库等远程与开源服务器。
 - [Microsoft MCP (Azure MCP Server)](https://github.com/microsoft/mcp) ⭐ 3.8k — 微软官方 MCP 服务器目录，包括可让智能体管理 Azure 资源的 Azure MCP Server。
 - [Kubernetes MCP Server](https://github.com/containers/kubernetes-mcp-server) ⭐ 2.2k — 原生 Go 实现的 Kubernetes/OpenShift MCP 服务器，直接调用 API Server，无需依赖 kubectl。
 - [Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server) ⭐ 1.6k — HashiCorp 官方 MCP 服务器，提供 Terraform Registry Provider/模块文档查询及 HCP Terraform 工作区操作。
-- [Cloudflare API MCP Server](https://github.com/cloudflare/mcp) ⭐ 966 — Cloudflare 远程 MCP 服务器（mcp.cloudflare.com），通过省 token 的 Code Mode 开放约 2500 个 Cloudflare API 端点。
+- [Cloudflare API MCP Server](https://github.com/cloudflare/mcp) ⭐ 970 — Cloudflare 远程 MCP 服务器（mcp.cloudflare.com），通过省 token 的 Code Mode 开放约 2500 个 Cloudflare API 端点。
 
 **🎨 设计、3D 与创意**
 
-- 🏆 **[Blender MCP](https://github.com/ahujasid/mcp-for-blender)** ⭐ 31.4k — 通过插件将 Claude 连接到 Blender，用提示词创建、修改和查看 3D 场景、材质与资源。
+- 🏆 **[Blender MCP](https://github.com/ahujasid/mcp-for-blender)** ⭐ 31.6k — 通过插件将 Claude 连接到 Blender，用提示词创建、修改和查看 3D 场景、材质与资源。
 - 🏆 **[Figma MCP Server](https://developers.figma.com/docs/figma-mcp-server)** 📘 — Figma 官方远程及桌面版 MCP 服务器，将设计上下文、变量、组件和 Code Connect 带入编码智能体。
 - [Next AI Draw.io](https://github.com/DayuanJiang/next-ai-draw-io) ⭐ 36.3k — 通过与 AI 对话绘制和编辑 draw.io 图表，提供 Web 应用、桌面应用以及可供 Claude Code 使用的 MCP 服务器。
 - [Framelink Figma MCP (Figma-Context-MCP)](https://github.com/GLips/Figma-Context-MCP) ⭐ 16k — 社区 MCP 服务器，精简 Figma API 布局数据，帮助编码智能体一次性准确还原设计稿。
 - [MCP for Unity](https://github.com/CoplayDev/unity-mcp) ⭐ 15.1k — 连接 AI 助手与 Unity 编辑器的桥梁，可管理资源、控制场景、编辑脚本并自动化游戏开发任务。
-- [Godot MCP](https://github.com/Coding-Solo/godot-mcp) ⭐ 6.1k — Godot 引擎 MCP 服务器：可启动编辑器、运行项目、捕获调试输出并操作场景。
+- [Godot MCP](https://github.com/Coding-Solo/godot-mcp) ⭐ 6.2k — Godot 引擎 MCP 服务器：可启动编辑器、运行项目、捕获调试输出并操作场景。
 - [draw.io MCP Server](https://github.com/jgraph/drawio-mcp) ⭐ 5.7k — JGraph 推出的 draw.io 官方 MCP 服务器，可在 draw.io 编辑器中创建和打开图表，并提供托管 MCP App。
 - [Excalidraw MCP App](https://github.com/excalidraw/excalidraw-mcp) ⭐ 5.5k — Excalidraw 官方 MCP App，可在 Claude 等支持 MCP Apps 的客户端中直接流式生成可编辑的手绘风格图表。
 - [Ableton MCP](https://github.com/ahujasid/ableton-mcp) ⭐ 3.2k — 让 Claude 控制 Ableton Live，创建音轨、加载乐器、编排片段并进行作曲。
@@ -560,8 +560,8 @@ _Claude 连接工具与数据的开放协议：热门服务器、SDK 与目录�
 **🖥️ 桌面与系统控制**
 
 - [Desktop Commander MCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) ⭐ 10.1k — 让 Claude 在本地机器上控制终端、管理进程、搜索文件系统并以 diff 方式编辑文件。
-- [Mobile MCP](https://github.com/mobile-next/mobile-mcp) ⭐ 9.7k — 跨平台 MCP 服务器，可在模拟器和真机上自动化操作 iOS 与 Android 应用。
-- [Windows-MCP](https://github.com/CursorTouch/Windows-MCP) ⭐ 9.4k — 轻量级 Windows 计算机操控 MCP 服务器：可启动应用、读取 UI 树、点击、输入并自动化桌面操作。
+- [Mobile MCP](https://github.com/mobile-next/mobile-mcp) ⭐ 9.8k — 跨平台 MCP 服务器，可在模拟器和真机上自动化操作 iOS 与 Android 应用。
+- [Windows-MCP](https://github.com/CursorTouch/Windows-MCP) ⭐ 9.5k — 轻量级 Windows 计算机操控 MCP 服务器：可启动应用、读取 UI 树、点击、输入并自动化桌面操作。
 - [Peekaboo](https://github.com/openclaw/Peekaboo) ⭐ 5.3k — macOS 命令行工具及可选 MCP 服务器，让智能体截取屏幕、分析画面并自动化 GUI 操作。
 
 **🧠 记忆**
@@ -576,7 +576,7 @@ _Claude 连接工具与数据的开放协议：热门服务器、SDK 与目录�
 
 **✨ 其他**
 
-- [xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) 🇨🇳 ⭐ 16.3k — 小红书 MCP 服务器：智能体可登录、搜索、浏览、评论并发布图文或视频笔记。
+- [xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) 🇨🇳 ⭐ 16.4k — 小红书 MCP 服务器：智能体可登录、搜索、浏览、评论并发布图文或视频笔记。
 - [IDA Pro MCP](https://github.com/mrexodia/ida-pro-mcp) ⭐ 13k — 通过 MCP 连接 IDA Pro 与大模型的 AI 逆向工程助手，支持反编译、重命名和二进制分析。
 - [mcp-feedback-enhanced](https://github.com/Minidoracat/mcp-feedback-enhanced) 🇨🇳 ⭐ 3.8k — 交互式反馈 MCP 服务器，提供 Web 与桌面界面，让你在 AI 编码过程中随时确认、反馈和纠偏，减少无效请求；README 含简繁中文。
 
@@ -592,7 +592,7 @@ _Claude 连接工具与数据的开放协议：热门服务器、SDK 与目录�
 - [mcp-use](https://github.com/mcp-use/mcp-use) ⭐ 10.8k — 全栈 TypeScript/Python 框架，用于构建 MCP 服务器、面向 Claude 与 ChatGPT 的 MCP Apps 以及基于 MCP 的智能体。
 - [mcp-agent](https://github.com/lastmile-ai/mcp-agent) ⭐ 8.6k — LastMile AI 的智能体框架，基于 MCP 并采用 Anthropic《Building Effective Agents》中的可组合工作流模式。
 - [MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk) ⭐ 5.2k — 官方 Tier 1 级 Go SDK，用于构建 MCP 服务器和客户端，与谷歌合作维护。
-- [ContextForge MCP Gateway](https://github.com/IBM/mcp-context-forge) ⭐ 4.6k — IBM 开源网关、注册表与代理，统一接入 MCP 服务器、A2A 智能体及 REST/gRPC API，并提供治理与可观测性。
+- [ContextForge MCP Gateway](https://github.com/IBM/mcp-context-forge) ⭐ 4.7k — IBM 开源网关、注册表与代理，统一接入 MCP 服务器、A2A 智能体及 REST/gRPC API，并提供治理与可观测性。
 - [MCP C# SDK](https://github.com/modelcontextprotocol/csharp-sdk) ⭐ 4.6k — 官方 Tier 1 级 C#/.NET SDK，用于构建 MCP 服务器和客户端，与微软合作维护。
 - [MCP Rust SDK](https://github.com/modelcontextprotocol/rust-sdk) ⭐ 4k — 官方 Tier 1 级 Rust SDK（rmcp），基于 Tokio 构建 MCP 服务器和客户端。
 - [Snyk Agent Scan (formerly mcp-scan)](https://github.com/snyk/agent-scan) ⭐ 3.1k — 面向 MCP 服务器、智能体配置和技能的安全扫描器，可检测工具投毒、提示词注入和 rug pull 攻击。
@@ -606,7 +606,7 @@ _Claude 连接工具与数据的开放协议：热门服务器、SDK 与目录�
 
 <sub>发现更多 MCP 服务器。</sub>
 
-- 🏆 **[Awesome MCP Servers (punkpeye)](https://github.com/punkpeye/awesome-mcp-servers)** ⭐ 96.5k — 星标最多的 MCP 服务器精选列表，按类别整理并标注语言与部署方式。
+- 🏆 **[Awesome MCP Servers (punkpeye)](https://github.com/punkpeye/awesome-mcp-servers)** ⭐ 96.6k — 星标最多的 MCP 服务器精选列表，按类别整理并标注语言与部署方式。
 - 🏆 **[Official MCP Registry](https://registry.modelcontextprotocol.io)** 🌐 — 官方开放的 MCP 服务器注册中心，采用命名空间验证的 server.json 元数据，并提供供下游注册表使用的 API。
 - 🏆 **[Claude Connectors Directory](https://claude.com/connectors)** 🌐 — Anthropic 的连接器目录，收录经其审核的远程 MCP 连接器与插件，可在 Claude、Claude Desktop 和 Claude Code 中安装。
 - [Awesome-MCP-ZH](https://github.com/yzfly/Awesome-MCP-ZH) 🇨🇳 ⭐ 7.7k — 中文 MCP 资源精选合集，涵盖指南、服务器、客户端以及 Claude MCP 配置技巧。
@@ -649,31 +649,31 @@ _基于 Claude API 与 Claude Agent SDK 构建的代理、应用与库，以及�
 <sub>能够看屏幕并操控桌面或浏览器的代理。</sub>
 
 - 🏆 **[Anthropic Computer Use Demo](https://github.com/anthropics/claude-quickstarts/tree/main/computer-use-demo)** — Anthropic 官方的 Claude 计算机使用参考实现：Docker 化的 Linux 桌面、智能体循环与 Streamlit 界面，支持 Claude API、Bedrock 或 Vertex。
-- [Cua](https://github.com/trycua/cua) ⭐ 30k — 开源的计算机使用基础设施：跨操作系统的沙箱与虚拟机、驱动与基准测试，并提供支持 Claude 计算机使用模型的智能体 SDK。
+- [Cua](https://github.com/trycua/cua) ⭐ 30.2k — 开源的计算机使用基础设施：跨操作系统的沙箱与虚拟机、驱动与基准测试，并提供支持 Claude 计算机使用模型的智能体 SDK。
 - [Stagehand](https://github.com/browserbase/stagehand) ⭐ 25.7k — Browserbase 推出的 AI 浏览器自动化 SDK（TypeScript/Python/Go），提供 act/extract/observe 原语及可搭配 Claude 模型的智能体模式。
 - [Skyvern](https://github.com/Skyvern-AI/skyvern) ⭐ 23.2k — 结合大模型与计算机视觉自动化浏览器工作流；通过 Anthropic 与 AWS Bedrock 支持 Claude 模型。
 - [Nanobrowser](https://github.com/nanobrowser/nanobrowser) ⭐ 14.1k — 开源的 Chrome/Edge 扩展，在你已登录的真实浏览器中运行 AI 网页自动化，可自带 Anthropic、OpenAI 等模型的密钥。
-- [Agent S](https://github.com/simular-ai/Agent-S) ⭐ 12.6k — Simular 推出的开放式 GUI 计算机使用智能体框架（Agent S3，OSWorld 成绩突出）；主模型可选用 Anthropic。
+- [Agent S](https://github.com/simular-ai/Agent-S) ⭐ 12.7k — Simular 推出的开放式 GUI 计算机使用智能体框架（Agent S3，OSWorld 成绩突出）；主模型可选用 Anthropic。
 - [Magnitude](https://github.com/magnitudedev/browser-agent) ⭐ 4.1k — 开源、以视觉为先的浏览器智能体，基于像素而非 DOM 进行操作；官方推荐使用 Claude Sonnet 以获得最佳效果。
 - [agent.exe](https://github.com/corbt/agent.exe) ⭐ 3.5k — 极简的 Electron 应用，让 Claude 计算机使用功能直接操控你自己的桌面，而非沙箱虚拟机。
 - [Computer Use OOTB](https://github.com/showlab/computer_use_ootb) ⭐ 2k — 新加坡国立大学 Show Lab 推出的开箱即用 Windows/macOS GUI 智能体，无需 Docker 虚拟机即可在本地运行 Claude 计算机使用。
-- [mac_computer_use](https://github.com/deedy/mac_computer_use) ⭐ 887 — Anthropic 计算机使用演示的分支，可在 macOS 上原生运行，让 Claude 无需 Docker Linux 虚拟机即可操控 Mac。
+- [mac_computer_use](https://github.com/deedy/mac_computer_use) ⭐ 888 — Anthropic 计算机使用演示的分支，可在 macOS 上原生运行，让 Claude 无需 Docker Linux 虚拟机即可操控 Mac。
 
 <a id="coding-agents"></a>
 ### 支持 Claude 的编程代理
 
 <sub>常与 Claude 搭配使用的其他开源编程代理与 IDE 扩展。</sub>
 
-- 🏆 **[OpenCode](https://github.com/anomalyco/opencode)** ⭐ 216k — 极受欢迎的开源编程智能体（终端 TUI、桌面端与 IDE），由 SST/Anomaly 团队打造；不绑定模型服务商，对 Claude 支持良好。
+- 🏆 **[OpenCode](https://github.com/anomalyco/opencode)** ⭐ 217k — 极受欢迎的开源编程智能体（终端 TUI、桌面端与 IDE），由 SST/Anomaly 团队打造；不绑定模型服务商，对 Claude 支持良好。
 - 🏆 **[OpenHands](https://github.com/OpenHands/OpenHands)** ⭐ 91.2k — 面向自主软件开发智能体的开放平台（前身 OpenDevin），提供 CLI、GUI、云端与 SDK；Claude 系列是其推荐使用的模型之一。
 - 🏆 **[Cline](https://github.com/cline/cline)** ⭐ 70.5k — 适用于 VS Code、JetBrains 与终端的自主编程智能体，前身为「Claude Dev」；Claude 是其一等支持模型，具备 Plan/Act 模式与 MCP 支持。
 - 🏆 **[Aider](https://github.com/Aider-AI/aider)** ⭐ 49.6k — 开创性的终端 AI 结对编程工具，可直接编辑 git 仓库；长期搭配 Claude 表现出色，并维护 Aider 大模型排行榜。
 - [Pi](https://github.com/earendil-works/pi) ⭐ 116k — 极简、可扩展的终端编程智能体及智能体工具包（统一 LLM API、智能体循环、TUI），内置 Anthropic 等服务商支持。
 - [Zed](https://github.com/zed-industries/zed) ⭐ 91.9k — 高性能 Rust 代码编辑器，内置智能体面板；可通过 API 使用 Claude，或借助 Agent Client Protocol 运行 Claude Code。
 - [goose](https://github.com/aaif-goose/goose) ⭐ 55.4k — 可扩展的开源本地 AI 智能体（桌面端与 CLI），能安装、编辑、运行与测试代码；支持 Anthropic API，也可通过 ACP 使用 Claude 订阅。
-- [Continue](https://github.com/continuedev/continue) ⭐ 36.2k — 面向 VS Code、JetBrains 与 CI 检查的开源编程智能体，模型与规则可配置；Claude 是常用的一等支持模型。
+- [Continue](https://github.com/continuedev/continue) ⭐ 36.3k — 面向 VS Code、JetBrains 与 CI 检查的开源编程智能体，模型与规则可配置；Claude 是常用的一等支持模型。
 - [Crush](https://github.com/charmbracelet/crush) ⭐ 28.7k — Charm 出品的精美终端编程智能体，集成 LSP、MCP 并支持多会话；兼容 Anthropic Claude 等众多服务商。
-- [Kilo Code](https://github.com/Kilo-Org/kilocode) ⭐ 27.6k — 开源的智能体工程平台，支持 VS Code、JetBrains 与 CLI，源自 Cline/Roo Code，可使用包括 Claude 在内的数百种模型。
+- [Kilo Code](https://github.com/Kilo-Org/kilocode) ⭐ 27.7k — 开源的智能体工程平台，支持 VS Code、JetBrains 与 CLI，源自 Cline/Roo Code，可使用包括 Claude 在内的数百种模型。
 - [Dyad](https://github.com/dyad-sh/dyad) ⭐ 22k — 本地运行的开源 AI 应用构建器（v0/Lovable/Bolt 替代品），使用你自己的 API 密钥调用 Claude 等模型。
 - [avante.nvim](https://github.com/avante-corp/avante.nvim) 🇨🇳 ⭐ 18.2k — 在 Neovim 中复刻 Cursor AI IDE 体验的插件，支持对话、差异预览与智能体式编辑；默认提供商为 Claude。
 - [bolt.new](https://github.com/stackblitz/bolt.new) ⭐ 16.6k — StackBlitz bolt.new 的开源核心：基于 WebContainers 在浏览器中通过提示词运行、编辑并部署全栈应用，最初由 Claude 驱动。
@@ -690,7 +690,7 @@ _基于 Claude API 与 Claude Agent SDK 构建的代理、应用与库，以及�
 
 - 🏆 **[LobeHub](https://github.com/lobehub/lobehub)** 🇨🇳 ⭐ 83.3k — 开源 AI 智能体工作空间（前身 LobeChat），支持多服务商聊天、智能体团队、MCP 插件与知识库，原生支持 Claude。
 - 🏆 **[Cherry Studio](https://github.com/CherryHQ/cherry-studio)** 🇨🇳 ⭐ 52.7k — 跨平台桌面 AI 生产力工作室，统一接入 Claude 等前沿模型，提供自主智能体、MCP 与 300+ 助手。
-- 🏆 **[LibreChat](https://github.com/LibreChat-AI/LibreChat)** ⭐ 45.9k — 可自托管的多服务商 ChatGPT 风格界面，支持智能体、MCP、Skills 与 Artifacts；原生 Anthropic 端点支持 Claude，并支持 Bedrock 与 Vertex。
+- 🏆 **[LibreChat](https://github.com/LibreChat-AI/LibreChat)** ⭐ 46k — 可自托管的多服务商 ChatGPT 风格界面，支持智能体、MCP、Skills 与 Artifacts；原生 Anthropic 端点支持 Claude，并支持 Bedrock 与 Vertex。
 - [Open WebUI](https://github.com/open-webui/open-webui) ⭐ 156k — 星标数最多的自托管 AI 界面；可通过 Anthropic 的 OpenAI 兼容端点接入 Claude，或借助 Pipe 函数使用完整的 Messages API 功能。
 - [NextChat](https://github.com/ChatGPTNextWeb/NextChat) 🇨🇳 ⭐ 88.9k — 轻量级跨平台 AI 聊天应用（Web、桌面与移动端），支持一键部署；兼容 Claude 以及 GPT、Gemini 等模型。
 - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) ⭐ 67.3k — 一体化、本地优先的 AI 应用，支持文档对话、RAG 与智能体工作流；可选择 Anthropic Claude 作为模型服务商。
@@ -698,13 +698,13 @@ _基于 Claude API 与 Claude Agent SDK 构建的代理、应用与库，以及�
 - [Chatbox](https://github.com/chatboxai/chatbox) 🇨🇳 ⭐ 42.1k — 流行的桌面与移动端 AI 客户端，支持 Claude、GPT、Gemini 与本地模型，具备知识库、MCP 工具与图像生成功能。
 - [Khoj](https://github.com/khoj-ai/khoj) ⭐ 37.7k — 可自托管的 AI「第二大脑」，基于网络或个人文档作答，支持自定义智能体与研究模式；可使用 Claude 模型。
 - [AIChat](https://github.com/sigoden/aichat) ⭐ 10.5k — 一体化 Rust 大模型命令行工具，提供 Shell 助手、聊天 REPL、RAG、工具与智能体；支持 Claude 等 20+ 服务商。
-- [big-AGI](https://github.com/enricoros/big-AGI) ⭐ 7.1k — 面向高级用户的 AI 套件，支持多模型「Beam」对比、角色与语音，并一等支持 Anthropic Claude。
+- [big-AGI](https://github.com/enricoros/big-AGI) ⭐ 7.2k — 面向高级用户的 AI 套件，支持多模型「Beam」对比、角色与语音，并一等支持 Anthropic Claude。
 - [DeepChat](https://github.com/ThinkInAIXYZ/deepchat) 🇨🇳 ⭐ 6.4k — 开源桌面 AI 助手，连接 Claude、GPT、Gemini、DeepSeek 与本地模型，支持 MCP 工具调用和多窗口对话。
 - [Claude Desktop for Linux (claude-desktop-debian)](https://github.com/aaddrick/claude-desktop-debian) ⭐ 5.5k — Claude Desktop 的非官方 Linux 打包项目，现基于 Anthropic 官方测试版 .deb 重新打包为 RPM、AppImage、AUR 与 Nix 等格式，并附带 Linux 修复。
 - [5ire](https://github.com/nanbingxyz/5ire) 🇨🇳 ⭐ 5.4k — 跨平台桌面 AI 助手与 MCP 客户端，兼容 Anthropic 等主流服务商，内置本地知识库与提示词库。
 - [DeepReasoning](https://github.com/winfunc/deepreasoning) ⭐ 5.4k — 高性能 Rust 推理 API 与聊天界面，将 DeepSeek R1 的思维链推理输入 Claude 以生成最终答案。
 - [Witsy](https://github.com/Kochava-Studios/witsy) ⭐ 2k — 桌面 AI 助手与通用 MCP 客户端，可自带密钥使用 Claude 等模型，支持随处调用的提示命令与智能体。
-- [llm-anthropic](https://github.com/simonw/llm-anthropic) ⭐ 250 — Simon Willison 的 LLM 命令行工具插件，加入 Claude 模型、扩展思考以及网页搜索、代码执行等服务端工具。
+- [llm-anthropic](https://github.com/simonw/llm-anthropic) ⭐ 251 — Simon Willison 的 LLM 命令行工具插件，加入 Claude 模型、扩展思考以及网页搜索、代码执行等服务端工具。
 - [Claude for Raycast](https://github.com/raycast/extensions/tree/main/extensions/claude) — Raycast 扩展，使用你的 Anthropic API 密钥在 macOS 命令栏中向 Claude 提问：支持模型选择、继续对话、保存回答与读取选中文本。
 
 <a id="api-tools"></a>
@@ -746,7 +746,7 @@ _指南、必读文章、课程、提示词、视频与资讯。_
 
 - 🏆 **[Learn Claude Code](https://github.com/shareAI-lab/learn-claude-code)** 🇨🇳 ⭐ 78.8k — 动手课程：用 Python 从零构建迷你版 Claude Code 智能体框架，每课新增一个机制；提供英/中/日文版。
 - 🏆 **[Claude Code Best Practice (shanraisshan)](https://github.com/shanraisshan/claude-code-best-practice)** ⭐ 67.7k — 极受欢迎的 Claude Code 最佳实践合集，涵盖提示、CLAUDE.md、技能、子代理、钩子与调试。
-- [Claude HowTo](https://github.com/luongnv89/claude-howto) ⭐ 41.9k — 图文并茂、示例驱动的 Claude Code 指南，提供分级学习路径以及命令、技能、钩子、MCP 的可复制模板。
+- [Claude HowTo](https://github.com/luongnv89/claude-howto) ⭐ 42k — 图文并茂、示例驱动的 Claude Code 指南，提供分级学习路径以及命令、技能、钩子、MCP 的可复制模板。
 - [Context Engineering Intro](https://github.com/coleam00/context-engineering-intro) ⭐ 13.9k — 用于 Claude Code 上下文工程的模板与教程：INITIAL.md 需求、PRP 生成、示例与 CLAUDE.md 规则。
 - [Claude Code Tips (ykdojo)](https://github.com/ykdojo/claude-code-tips) ⭐ 10.2k — 45 条以上从入门到进阶的 Claude Code 实用技巧，含自定义状态栏脚本和在容器中运行 Claude Code。
 - [Claude Code Ultimate Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) ⭐ 6.2k — 非常全面的 Claude Code 指南，涵盖智能体工作流、钩子、技能、MCP、测验与可用于生产的模板。
@@ -800,7 +800,7 @@ _指南、必读文章、课程、提示词、视频与资讯。_
 
 <sub>适用于 Claude 的提示词库与技巧。</sub>
 
-- 🏆 **[Prompt Engineering Interactive Tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial)** ⭐ 38.6k — Anthropic 交互式 Notebook 教程，通过大量练习讲授 Claude 提示工程基础。
+- 🏆 **[Prompt Engineering Interactive Tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial)** ⭐ 38.7k — Anthropic 交互式 Notebook 教程，通过大量练习讲授 Claude 提示工程基础。
 - [Awesome Claude Prompts](https://github.com/langgptai/awesome-claude-prompts) 🇨🇳 ⭐ 5.5k — 精选 Claude 提示词与提示技巧合集，帮助更好地使用 Claude。
 - [Claude Prompting Best Practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices) 📘 — Anthropic 持续更新的提示工程参考，适用于当前 Claude 模型：清晰表达、示例、XML、思考、工具调用、智能体系统与迁移。
 - [Claude System Prompts (Release Notes)](https://platform.claude.com/docs/en/release-notes/system-prompts/overview) 📘 — Anthropic 官方公开的 claude.ai 及移动应用各模型系统提示词，附带按日期的更新记录。
@@ -892,12 +892,12 @@ _B 站 UP 主、中文教程、社区平台，以及提供 Claude Code 兼容接
 
 - 🏆 **[AI-Coding-Guide-Zh (Claude Code 中文教程)](https://github.com/KimYx0207/AI-Coding-Guide-Zh)** 🇨🇳 ⭐ 6.3k — 体量最大的中文 AI 编程教程之一：50 篇完整教程 + 速查卡，覆盖 Claude Code、Codex、OpenClaw、WorkBuddy 四条学习路径。
 - 🏆 **[Claude Code 官方中文文档](https://code.claude.com/docs/zh-CN/overview)** 📘 🇨🇳 — Anthropic 官方 Claude Code 简体中文文档，覆盖安装、CLAUDE.md、Skills、Hooks、MCP、子代理、Agent SDK 等，权威首选。
-- [鱼皮 AI 知识库 (ai-guide)](https://github.com/liyupi/ai-guide) 🇨🇳 ⭐ 21.3k — 程序员鱼皮的免费 AI 知识库与 Vibe Coding 教程，包含 Claude Code 专题、神级技巧、用 AI 手搓 Claude Code 等内容。
+- [鱼皮 AI 知识库 (ai-guide)](https://github.com/liyupi/ai-guide) 🇨🇳 ⭐ 21.4k — 程序员鱼皮的免费 AI 知识库与 Vibe Coding 教程，包含 Claude Code 专题、神级技巧、用 AI 手搓 Claude Code 等内容。
 - [claude-howto-zh-cn](https://github.com/lhfer/claude-howto-zh-cn) 🇨🇳 ⭐ 2.3k — 基于 luongnv89/claude-howto 本土化重写的 Claude Code 中文上手指南，面向小白，保留命令与配置兼容并附学习路径。
 - [everything-claude-code-zh](https://github.com/xu-xiang/everything-claude-code-zh) 🇨🇳 ⭐ 2k — everything-claude-code 中文翻译：源自 Anthropic 黑客松获胜者的完整配置集合（agents、skills、hooks、commands、rules、MCP）。
-- [claude-code-guide（国内如何使用 Claude Code）](https://github.com/claude-code-chinese/claude-code-guide) 🇨🇳 ⭐ 684 — 通俗易懂的 Claude Code 中文介绍与教学指南，包含国内环境使用说明（2026 版）。
+- [claude-code-guide（国内如何使用 Claude Code）](https://github.com/claude-code-chinese/claude-code-guide) 🇨🇳 ⭐ 685 — 通俗易懂的 Claude Code 中文介绍与教学指南，包含国内环境使用说明（2026 版）。
 - [awesome-claudcode-tutorial](https://github.com/xianyu110/awesome-claudcode-tutorial) 🇨🇳 ⭐ 618 — 最全面的 Claude Code 中文教程之一：200+ 篇文章与 29 章课程，从零基础到企业级应用。
-- [Claude Code 橙皮书 (claude-code-orange-book)](https://github.com/alchaincyf/claude-code-orange-book) 🇨🇳 ⭐ 321 — 独立开发者花叔的「橙皮书」系列之 Claude Code 完全指南，AI 编程实战路线，提供中文版。
+- [Claude Code 橙皮书 (claude-code-orange-book)](https://github.com/alchaincyf/claude-code-orange-book) 🇨🇳 ⭐ 322 — 独立开发者花叔的「橙皮书」系列之 Claude Code 完全指南，AI 编程实战路线，提供中文版。
 - [菜鸟教程 Claude Code 教程](https://www.runoob.com/claude-code/claude-code-tutorial.html) 🎓 🇨🇳 — 菜鸟教程的 Claude Code 系列教程，章节齐全：安装、DeepSeek/Coding Plan 配置、CLAUDE.md、MCP、子代理、Skills、Hooks、Agent SDK 等。
 - [Claude Code 完全指南：使用方式、技巧与最佳实践（掘金）](https://juejin.cn/post/7592079304923824138) 📝 🇨🇳 · _作者 knqiufan_ — 掘金长文参考手册：安装、Skills、Hooks、MCP、子代理、CLAUDE.md、高级模式、技巧与排错一网打尽。
 - [Claude Code 怎么学？推荐 4 个高质量开源教程（掘金）](https://juejin.cn/post/7646780600486412340) 📝 🇨🇳 · _作者 JavaGuide_ — JavaGuide 在掘金推荐的 4 个高质量 Claude Code 开源教程（AI-Coding-Guide-Zh、AIGuide、awesome-claudcode-tutorial、橙皮书）。
@@ -936,7 +936,7 @@ _B 站 UP 主、中文教程、社区平台，以及提供 Claude Code 兼容接
 
 <sub>以下为上方各功能分类中由中国开发者创建的项目汇总。</sub>
 
-[CC Switch](https://github.com/farion1231/cc-switch) ⭐146k · [LobeHub](https://github.com/lobehub/lobehub) ⭐83.3k · [Learn Claude Code](https://github.com/shareAI-lab/learn-claude-code) ⭐78.8k · [Cherry Studio](https://github.com/CherryHQ/cherry-studio) ⭐52.7k · [Claude Code Router](https://github.com/musistudio/claude-code-router) ⭐37.7k · [AionUi](https://github.com/iOfficeAI/AionUi) ⭐33.6k · [baoyu-skills](https://github.com/JimLiu/baoyu-skills) ⭐26.7k · [NextChat](https://github.com/ChatGPTNextWeb/NextChat) ⭐88.9k · [Chatbox](https://github.com/chatboxai/chatbox) ⭐42.1k · [avante.nvim](https://github.com/avante-corp/avante.nvim) ⭐18.2k · [xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) ⭐16.3k · [cc-connect](https://github.com/chenhg5/cc-connect) ⭐16k · [Trellis](https://github.com/mindfold-ai/Trellis) ⭐15k · [Claude Context](https://github.com/zilliztech/claude-context) ⭐12.6k · [Chrome MCP Server (mcp-chrome)](https://github.com/hangwin/mcp-chrome) ⭐12.5k · [Awesome-MCP-ZH](https://github.com/yzfly/Awesome-MCP-ZH) ⭐7.7k · [jetbrains-cc-gui](https://github.com/zhukunpenglinyutong/jetbrains-cc-gui) ⭐7.1k · [CodePilot](https://github.com/op7418/CodePilot) ⭐6.5k · [DeepChat](https://github.com/ThinkInAIXYZ/deepchat) ⭐6.4k · [ZCF (Zero-Config Code Flow)](https://github.com/UfoMiao/zcf) ⭐6.1k · [CCG Workflow](https://github.com/fengshao1227/ccg-workflow) ⭐5.9k · [ArcReel](https://github.com/ArcReel/ArcReel) ⭐5.6k · [Awesome Claude Prompts](https://github.com/langgptai/awesome-claude-prompts) ⭐5.5k · [5ire](https://github.com/nanbingxyz/5ire) ⭐5.4k · [Kode](https://github.com/shareAI-lab/Kode-CLI) ⭐5.2k · [awesome-agent-skills (Agent Skills 终极指南)](https://github.com/libukai/awesome-agent-skills) ⭐5.2k · [mcp-feedback-enhanced](https://github.com/Minidoracat/mcp-feedback-enhanced) ⭐3.8k · [CCometixLine](https://github.com/Haleclipse/CCometixLine) ⭐3.5k · [claude-code-proxy (fuergaosi233)](https://github.com/fuergaosi233/claude-code-proxy) ⭐2.8k · [CodexMCP](https://github.com/GuDaStudio/codexmcp) ⭐2k · [claude-code-settings (feiskyer)](https://github.com/feiskyer/claude-code-settings) ⭐1.7k · [NekroAgent](https://github.com/KroMiose/nekro-agent) ⭐1.1k · [Claude_skills_zh-CN](https://github.com/LeastBit/Claude_skills_zh-CN) ⭐594 · [awesome-claude-code (LangGPT 中文版)](https://github.com/LangGPT/awesome-claude-code) ⭐269 · [Z.ai GLM Coding Plan for Claude Code](https://docs.z.ai/devpack/tool/claude) · [mcp.so](https://mcp.so) · [魔搭 ModelScope MCP 广场](https://modelscope.cn/mcp)
+[CC Switch](https://github.com/farion1231/cc-switch) ⭐146k · [LobeHub](https://github.com/lobehub/lobehub) ⭐83.3k · [Learn Claude Code](https://github.com/shareAI-lab/learn-claude-code) ⭐78.8k · [Cherry Studio](https://github.com/CherryHQ/cherry-studio) ⭐52.7k · [Claude Code Router](https://github.com/musistudio/claude-code-router) ⭐37.8k · [AionUi](https://github.com/iOfficeAI/AionUi) ⭐33.6k · [baoyu-skills](https://github.com/JimLiu/baoyu-skills) ⭐26.8k · [NextChat](https://github.com/ChatGPTNextWeb/NextChat) ⭐88.9k · [Chatbox](https://github.com/chatboxai/chatbox) ⭐42.1k · [avante.nvim](https://github.com/avante-corp/avante.nvim) ⭐18.2k · [xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) ⭐16.4k · [cc-connect](https://github.com/chenhg5/cc-connect) ⭐16k · [Trellis](https://github.com/mindfold-ai/Trellis) ⭐15k · [Claude Context](https://github.com/zilliztech/claude-context) ⭐12.6k · [Chrome MCP Server (mcp-chrome)](https://github.com/hangwin/mcp-chrome) ⭐12.5k · [Awesome-MCP-ZH](https://github.com/yzfly/Awesome-MCP-ZH) ⭐7.7k · [jetbrains-cc-gui](https://github.com/zhukunpenglinyutong/jetbrains-cc-gui) ⭐7.1k · [CodePilot](https://github.com/op7418/CodePilot) ⭐6.5k · [DeepChat](https://github.com/ThinkInAIXYZ/deepchat) ⭐6.4k · [ZCF (Zero-Config Code Flow)](https://github.com/UfoMiao/zcf) ⭐6.1k · [CCG Workflow](https://github.com/fengshao1227/ccg-workflow) ⭐5.9k · [ArcReel](https://github.com/ArcReel/ArcReel) ⭐5.6k · [Awesome Claude Prompts](https://github.com/langgptai/awesome-claude-prompts) ⭐5.5k · [5ire](https://github.com/nanbingxyz/5ire) ⭐5.4k · [Kode](https://github.com/shareAI-lab/Kode-CLI) ⭐5.2k · [awesome-agent-skills (Agent Skills 终极指南)](https://github.com/libukai/awesome-agent-skills) ⭐5.2k · [mcp-feedback-enhanced](https://github.com/Minidoracat/mcp-feedback-enhanced) ⭐3.8k · [CCometixLine](https://github.com/Haleclipse/CCometixLine) ⭐3.5k · [claude-code-proxy (fuergaosi233)](https://github.com/fuergaosi233/claude-code-proxy) ⭐2.8k · [CodexMCP](https://github.com/GuDaStudio/codexmcp) ⭐2k · [claude-code-settings (feiskyer)](https://github.com/feiskyer/claude-code-settings) ⭐1.7k · [NekroAgent](https://github.com/KroMiose/nekro-agent) ⭐1.1k · [Claude_skills_zh-CN](https://github.com/LeastBit/Claude_skills_zh-CN) ⭐594 · [awesome-claude-code (LangGPT 中文版)](https://github.com/LangGPT/awesome-claude-code) ⭐269 · [Z.ai GLM Coding Plan for Claude Code](https://docs.z.ai/devpack/tool/claude) · [mcp.so](https://mcp.so) · [魔搭 ModelScope MCP 广场](https://modelscope.cn/mcp)
 
 <div align="right"><a href="#top">↑ 返回顶部</a></div>
 
@@ -985,8 +985,8 @@ _社区聚集地、日语/韩语等其他语言资源，以及相关的 Awesome 
 
 <sub>其他值得收藏的精选列表。</sub>
 
-- 🏆 **[Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code)** ⭐ 55.9k — 最具代表性的 Claude Code 精选清单，收录技能、钩子、斜杠命令、编排器、应用与插件。
-- [Awesome Claude Skills (ComposioHQ)](https://github.com/ComposioHQ/awesome-claude-skills) ⭐ 77.3k — 精选 Claude Skills、资源与工具清单，用于定制 Claude 工作流。
+- 🏆 **[Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code)** ⭐ 56k — 最具代表性的 Claude Code 精选清单，收录技能、钩子、斜杠命令、编排器、应用与插件。
+- [Awesome Claude Skills (ComposioHQ)](https://github.com/ComposioHQ/awesome-claude-skills) ⭐ 77.4k — 精选 Claude Skills、资源与工具清单，用于定制 Claude 工作流。
 - [awesome-agent-skills (Agent Skills 终极指南)](https://github.com/libukai/awesome-agent-skills) 🇨🇳 ⭐ 5.2k — 中文为主的 Agent Skills 终极指南：快速入门、资源推荐、精选技能与实用工具，聚焦 Claude 生态。
 - [awesome-claude-code (LangGPT 中文版)](https://github.com/LangGPT/awesome-claude-code) 🇨🇳 ⭐ 269 — LangGPT 社区（云中江树）整理的 Claude Code 精选资源列表，提供简体中文版，收录项目、提示词、智能体与命令。
 
